@@ -1,0 +1,292 @@
+/*
+Theme Name: Conectar Igualdad
+Theme URI: http://wordpress.org/
+Description: Plan de entrega de Netbooks.
+Author: Juan Novelletto juannovelletto@gmail.com
+Version: 1.0
+Tags: black, blue, white, two-columns, fixed-width, custom-header, custom-background, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style
+*/
+
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+/*RESETTTTTTTTTTTTTTTTT*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS de Conectar Igualdad by juannovelletto@gmail.com */
+
+body {
+	background-color: #f1f1f1;
+	margin: 0;
+	padding: 0;
+	font: 76%/1em  Arial,Helvetica,sans-serif;
+	text-align: center;	
+}
+td, li, p, dl {
+	font-size: 102%;
+	line-height: 1.51em;
+	margin: 0; /*modificar luego*/
+	color: #7B7B7B;
+}
+
+img{
+	border:0;
+}	
+
+
+/************************** LAYOUTS *****************************/
+	
+#contenedor-site {
+	width: 980px;
+	position: relative;
+	text-align: left;
+	padding: 0;
+	margin-top: 33px;
+	margin-bottom: 40px;
+	margin-right: auto;
+	margin-left: auto; 
+}
+
+#contenedor-site h1{ 
+	clear: both; 
+	color: #C06;
+	font-weight: bold;
+	font-size: 182%;
+	margin-left: 103px;
+	margin-top: 34px;
+	margin-bottom: 13px;
+	}
+	
+	.explicativo{
+		color: #000;
+		margin-left: 103px;
+		font-size: 112%;
+		margin-bottom: 30px;
+	}
+		
+.recuadro-gris {
+	background: #E7E7E7 url(fnd_programas.png) no-repeat 0 0;
+	margin-bottom: 22px;
+	border-radius:13px; 
+	-moz-border-radius:13px;  
+	-khtml-border-radius:13px; 
+	-webkit-border-radius:13px; 
+	overflow:hidden;
+	width:978px;
+	clear: both;
+}	
+
+/*.recuadro-gris p{
+	margin-left: 30px;
+	color: #279ad7;
+	}*/
+	
+.listaProgramas{
+	background: #37a2df;
+	color: #FFF;
+	margin-bottom: 3px; 
+	width: 905px; 
+	margin-left: 36px;
+	margin-right: 65px;
+	margin-bottom: 40px;
+	border-radius:13px; 
+	-moz-border-radius:13px;  
+	-khtml-border-radius:13px; 
+	-webkit-border-radius:13px; 
+	overflow: hidden;
+	padding: 20px 0 10px 0;
+	}
+	
+	.listaProgramas h2{ 
+		font-size: 142%;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	.listaProgramas td { 
+		float: left;
+		margin-left: 20px;
+		margin-bottom: 10px;
+		width: 110px;
+	} 
+	
+	.listaProgramas .wordpress{ clear: left;} 
+	
+	.listaProgramas td a { 
+		font-weight: normal;
+		font-size: 112%;
+		background: transparent;
+		padding-bottom: 0;
+		border-bottom: 1px solid #88C9EE;
+                background-color: #37A2DF;
+	}
+	
+	.listaProgramas a:hover{ color: #000;} 
+
+.recuadro-gris .listaTutoriales{ margin: 30px 0 20px 42px; }
+
+.recuadro-gris .listaTutoriales li{
+	background: #d3d3d3;
+	margin-bottom: 3px; 
+	width: 250px; 
+	margin-right: 74px;
+	margin-bottom: 40px;
+	float: left; 
+	border-radius:13px; 
+	-moz-border-radius:13px;  
+	-khtml-border-radius:13px; 
+	-webkit-border-radius:13px; 
+	
+	min-height:140px;
+    height:auto !important;
+    height:140px;
+	}
+	
+.recuadro-gris .listaTutoriales li .titTut{ 
+	width: 126px; 
+	margin-top: 7px;
+	font-size: 132%;
+	margin-left: -11px;
+	padding: 6px 0 14px 24px;
+	margin-bottom: 6px;
+	color: #FFF;
+	font-weight: bold;
+	}
+
+	.recuadro-gris .listaTutoriales li p{ 
+	font-size: 102%;
+	margin: 0 10px 14px 12px;
+	line-height: 1.21em;
+	color: #606060;
+	}
+	
+	.recuadro-gris .listaTutoriales li .single{
+	 margin-bottom: 29px;
+	}
+	
+	.recuadro-gris .listaTutoriales li .preg{ 
+	font-weight: bold;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	}
+	
+.recuadro-gris .listaTutoriales .mediawiki, .recuadro-gris .listaTutoriales  .atrium{ margin-right: 0;}
+
+.recuadro-gris .elgg .titTut{ background:#009ef1 url(ribb_elgg.png) no-repeat bottom left;}
+.recuadro-gris .italc .titTut{ background:#0dce8c url(ribb_italc.png) no-repeat bottom left;}
+.recuadro-gris .mediawiki .titTut{ background:#eda61e url(ribb_mediawiki.png) no-repeat bottom left;}
+.recuadro-gris .moodle .titTut{ background:#c81a6c url(ribb_moodle.png) no-repeat bottom left;}
+.recuadro-gris .wordpress .titTut{ background:#793bb4 url(ribb_wordpress.png) no-repeat bottom left;}
+.recuadro-gris .atrium .titTut{ background:#e33c20 url(ribb_atrium.png) no-repeat bottom left;}
+
+.recuadro-gris a{ color: #FFF; text-decoration: none; background: #3bb8fa; padding: 5px 0;}
+
+.recuadro-gris .listaTutoriales li h2 a{ 
+	background: none;
+	padding: 0;
+	padding-left: 24px;
+	}
+	
+.recuadro-gris .listaTutoriales li h2 a:hover{ color: #000; }
+
+.recuadro-gris .botHerr{ margin-left: 12px; width: 123px;}
+.recuadro-gris .botTut{ margin-left: 18px; width: 75px;}
+
+.recuadro-gris .botHerr, .recuadro-gris .botTut{ 
+	border-radius:8px; 
+	-moz-border-radius:8px;  
+	-khtml-border-radius:8px; 
+	-webkit-border-radius:8px; 
+	margin-bottom: 10px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	float: left;
+	display: inline;
+	}
+	
+.recuadro-gris .botHerr:hover, .recuadro-gris .botTut:hover{ 
+	background: #279ad7;
+}	
+		
+#footer{ 
+	margin-top: 30px;
+	padding-top: 4px;
+	padding-left: 8px;
+	background-color: #fff;
+	margin-bottom: 22px;
+	padding-bottom: 4px;
+	border-radius:13px; 
+	-moz-border-radius:13px;  
+	-khtml-border-radius:13px; 
+	-webkit-border-radius:13px; 
+	}
+	
+	#footer a{ display: inline; } 
+	
+.recurso p {
+	color: #414141;
+}	
+	
+
+/******************************** TITULOS ********************************/
+
+#logoConectar{ float: left; width: 303px; margin-left: 5px;}
+
+#logoMin{ float: right; width: 219px; margin: 0 0 0 0;}
+
+#logoConectar a {
+	text-indent: -35000px;
+	display: block;
+	width: 303px;
+	height: 70px;
+	background: url(conectar.png) no-repeat 0 0;
+	margin-bottom: 30px;
+}

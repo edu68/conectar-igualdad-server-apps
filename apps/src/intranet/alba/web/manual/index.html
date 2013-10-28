@@ -1,0 +1,5252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<HTML
+><HEAD
+><TITLE
+>ALBA </TITLE
+><META
+NAME="GENERATOR"
+CONTENT="Modular DocBook HTML Stylesheet Version 1.79"></HEAD
+><BODY
+CLASS="book"
+BGCOLOR="#FFFFFF"
+TEXT="#000000"
+LINK="#0000FF"
+VLINK="#840084"
+ALINK="#0000FF"
+><DIV
+CLASS="BOOK"
+><A
+NAME="AEN1"
+></A
+><DIV
+CLASS="TITLEPAGE"
+><H1
+CLASS="title"
+><A
+NAME="AEN2"
+>ALBA</A
+></H1
+><H2
+CLASS="subtitle"
+>Sistema Libre de Gestión Educativa</H2
+><H2
+CLASS="subtitle"
+>Manual del Usuario</H2
+><IMG
+ALIGN="center"
+SRC="img/alba.jpg"
+ALT=""><H3
+CLASS="author"
+><A
+NAME="AEN7"
+></A
+>Equipo de Trabajo  del Proyecto Alba</H3
+><P
+CLASS="copyright"
+>Copyright &copy; 2007 Proyecto Alba</P
+><DIV
+CLASS="legalnotice"
+><A
+NAME="AEN13"
+></A
+><P
+><B
+>Licencia del documento</B
+></P
+><P
+>Buenos Aires, Argentina</P
+><P
+>'Manual del Usuario de ALBA' es: <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Licencia Creative Commons Atribución - CompartirDerivadasIgual 2.5 Argentina</I
+></SPAN
+></P
+></DIV
+><DIV
+CLASS="legalnotice"
+><P
+></P
+><A
+NAME="AEN18"
+></A
+><P
+>&#13;            La presente obra está liberada bajo una <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Licencia Creative Commons Atribución-CompartirDerivadasIgual 2.5 Argentina</I
+></SPAN
+>, que permite copiar, distribuir, exhibir y ejecutar la obra, hacer obras derivadas y hacer usos comerciales de la misma, bajo las condiciones de atribuir el crédito correspondiente al autor original y
+            compartir las obras derivadas resultantes bajo la misma licencia.
+        </P
+><P
+></P
+></DIV
+><DIV
+CLASS="legalnotice"
+><P
+></P
+><A
+NAME="AEN21"
+></A
+><P
+>Más información sobre esta licencia en:</P
+><P
+>&#13;        <A
+HREF="http://creativecommons.org/licenses/by-sa/2.5/ar/"
+TARGET="_top"
+>http://creativecommons.org/licenses/by-sa/2.5/ar/</A
+>
+        </P
+><P
+></P
+></DIV
+><DIV
+CLASS="legalnotice"
+><P
+></P
+><A
+NAME="AEN25"
+></A
+><P
+>Más información sobre el autor en:</P
+><P
+><A
+HREF="http://www.proyectoalba.com.ar"
+TARGET="_top"
+>http://www.proyectoalba.com.ar</A
+></P
+><P
+></P
+></DIV
+><HR></DIV
+><HR><H1
+><A
+NAME="AEN29"
+></A
+>Presentación</H1
+><P
+>&#13;Estimado usuario: 
+</P
+><P
+>&#13;    Agradecemos mucho que haya pensado en <SPAN
+CLASS="QUOTE"
+>"ALBA"</SPAN
+> para gestionar su establecimiento. 
+</P
+><P
+>&#13;    <SPAN
+CLASS="QUOTE"
+>"ALBA"</SPAN
+> es un <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> Sistema Informático Abierto de Gestión 
+    Unificada para Unidades Educacionales</I
+></SPAN
+> que ofrece aplicaciones de Software Libre para el trabajo cotidiano. 
+    Por su tipo de licenciamiento, bajo la GNU/GPL, el sistema permite una reutilización y actualización 
+    constante, como así también el aprovechamiento de módulos ya realizados 
+    por otros emprendedores (siempre que sean compatibles con esta licencia).
+    
+</P
+><P
+>&#13;    Este proyecto fue presentado en la convocatoria 2005 de los Proyectos 
+    Federales de Innovación Productiva por Open Computación S.A. y 
+    fue seleccionado en diciembre de 2005 como uno de los proyectos aprobados. ALBA es desarrollado para nuestras propias 
+    instituciones educativas a partir de información relevada mediante entrevistas a responsables del sector. 
+
+</P
+><P
+>&#13;    Como se trata de un proyecto de Software Libre, nuevos colaboradores ya se sumaron al trabajo luego del impulso 
+    inicial de Open Computación S.A. ¡Esperamos que cada vez seamos más!
+    
+</P
+><P
+>&#13;    Le sugerimos que lea este manual antes de comenzar a utilizar el sistema y que se familiarice especialmente 
+    con los conceptos de esta aplicación y de este documento.
+</P
+><P
+>&#13;
+Muchas gracias. 
+</P
+><P
+>&#13;Equipo de trabajo del Proyecto ALBA. 
+</P
+><HR><H1
+><A
+NAME="AEN42"
+></A
+>Recomendaciones iniciales </H1
+><P
+> En este apartado se presentan algunas recomendaciones que pueden facilitar la lectura de este manual y la comprensión de la oferta de ALBA: </P
+><P
+> Antes de comenzar es importante acordar sobre las definiciones de algunos de los conceptos que se utilizan a lo largo del manual, y que pueden consultarse en el capítulo tres. </P
+><P
+>&#13;Este documento se encuentra también disponible para descarga en: http://www.proyectoalba.com.ar/manual_alba_gestionescolar.pdf. Además de este manual el propio sistema posee esta ayuda disponible también desde el menú para facilitar su uso.
+</P
+><P
+>&#13;El manual cuenta con varios apartados que resumen y simplifican la información completa, para facilitar su lectura o consultas específicas. Es posibl,e antes de completar la revisión de este documento, avanzar desde el capítulo cuarto. A partir del cinco, cada uno de los capítulos representa una sección del menú de la aplicación.
+</P
+><P
+>&#13;ALBA, está desarrollado para contemplar la posibilidad de la gestión de varios establecimientos de una misma empresa (en el caso de tratarse de privados) que se denomina en esta aplicación "organización". De todas formas puede utilizarse en escuelas públicas sin mayores dificultades.
+</P
+><P
+>&#13;Los primeros módulos desarrollados y que se explican en este documento son parte de un proyecto más ambicioso que contemple a medida que avanza, diferentes niveles de enseñanza. Si Ud. tiene algún tipo de institución educativa no contemplada, es posible contactarse para solicitar cambios a medida de las necesidades. 
+</P
+><P
+>&#13;Recuerde que al tratarse de Software Libre (licenciado con la Licencia Pública General - GPL) el sistema se pone a disposición junto a su código fuente (instrucciones codificadas que son inteligibles para el hombre) lo que permite la modificación del mismo por parte de cualquier profesional en el lenguaje.
+</P
+><P
+>&#13;El modelo del Software Libre propone una interacción directa entre usuarios y desarrolladores, por lo que ante cualquier error o sugerencia es posible comunicarse con el equipo de desarrollo a contacto@proyectoalba.com.ar
+</P
+><P
+>&#13;¡Disfrute de la lectura!
+</P
+><DIV
+CLASS="TOC"
+><DL
+><DT
+><B
+>Tabla de contenidos</B
+></DT
+><DT
+>1. <A
+HREF="#AEN53"
+>Instalación del programa</A
+></DT
+><DD
+><DL
+><DT
+>1.1. <A
+HREF="#AEN55"
+>Instalación en GNU/Linux</A
+></DT
+><DD
+><DL
+><DT
+>1.1.1. <A
+HREF="#AEN57"
+>Requerimientos de hardware:</A
+></DT
+><DT
+>1.1.2. <A
+HREF="#AEN77"
+>Requerimientos de software</A
+></DT
+><DT
+>1.1.3. <A
+HREF="#AEN117"
+>Instalación</A
+></DT
+></DL
+></DD
+><DT
+>1.2. <A
+HREF="#AEN233"
+>Instalación en Windows</A
+></DT
+><DD
+><DL
+><DT
+>1.2.1. <A
+HREF="#AEN237"
+>Requerimientos de hardware:</A
+></DT
+><DT
+>1.2.2. <A
+HREF="#AEN255"
+>Requerimientos de software.</A
+></DT
+><DT
+>1.2.3. <A
+HREF="#AEN278"
+>La instalación del XAMPP</A
+></DT
+><DT
+>1.2.4. <A
+HREF="#AEN301"
+>La instalación de ALBA</A
+></DT
+></DL
+></DD
+><DT
+>1.3. <A
+HREF="#AEN327"
+>Ingreso al sistema</A
+></DT
+><DT
+>1.4. <A
+HREF="#AEN344"
+>Salida del sistema</A
+></DT
+></DL
+></DD
+><DT
+>2. <A
+HREF="#AEN350"
+>Interfaz de ALBA.</A
+></DT
+><DD
+><DL
+><DT
+>2.1. <A
+HREF="#AEN353"
+>2.1 La pantalla principal  de ALBA.</A
+></DT
+><DT
+>2.2. <A
+HREF="#AEN361"
+>Los elementos más importantes de las pantallas.</A
+></DT
+><DD
+><DL
+><DT
+>2.2.1. <A
+HREF="#AEN363"
+>El menú desplegable.</A
+></DT
+><DT
+>2.2.2. <A
+HREF="#AEN371"
+>Los botones de la barra inferior.</A
+></DT
+><DT
+>2.2.3. <A
+HREF="#AEN379"
+>Las barras de acciones.</A
+></DT
+><DT
+>2.2.4. <A
+HREF="#AEN388"
+>Ventanas de filtros.</A
+></DT
+><DT
+>2.2.5. <A
+HREF="#AEN396"
+>Los listados de los datos.</A
+></DT
+><DT
+>2.2.6. <A
+HREF="#AEN401"
+>Los mensajes al grabar.</A
+></DT
+><DT
+>2.2.7. <A
+HREF="#AEN405"
+>Las vistas de calendarios</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>3. <A
+HREF="#AEN412"
+>Diccionario de conceptos</A
+></DT
+><DD
+><DL
+><DT
+>3.1. <A
+HREF="#AEN415"
+>Los conceptos</A
+></DT
+><DD
+><DL
+><DT
+>3.1.1. <A
+HREF="#AEN417"
+>Cuentas</A
+></DT
+><DT
+>3.1.2. <A
+HREF="#AEN421"
+>Espacios</A
+></DT
+><DT
+>3.1.3. <A
+HREF="#AEN424"
+>Establecimiento</A
+></DT
+><DT
+>3.1.4. <A
+HREF="#AEN427"
+>Eventos</A
+></DT
+><DT
+>3.1.5. <A
+HREF="#AEN430"
+>Grados/Años</A
+></DT
+><DT
+>3.1.6. <A
+HREF="#AEN433"
+>Locación</A
+></DT
+><DT
+>3.1.7. <A
+HREF="#AEN436"
+>Módulo</A
+></DT
+><DT
+>3.1.8. <A
+HREF="#AEN439"
+>Organización</A
+></DT
+><DT
+>3.1.9. <A
+HREF="#AEN442"
+>Permiso</A
+></DT
+><DT
+>3.1.10. <A
+HREF="#AEN445"
+>Responsables</A
+></DT
+><DT
+>3.1.11. <A
+HREF="#AEN449"
+>Rol</A
+></DT
+><DT
+>3.1.12. <A
+HREF="#AEN453"
+>Sección/División</A
+></DT
+><DT
+>3.1.13. <A
+HREF="#AEN460"
+>Usuarios</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>4. <A
+HREF="#AEN463"
+>Usando ALBA por primera vez</A
+></DT
+><DD
+><DL
+><DT
+>4.1. <A
+HREF="#AEN467"
+>Información precargada</A
+></DT
+><DT
+>4.2. <A
+HREF="#AEN471"
+>Información cargada como Ejemplo (Demo)</A
+></DT
+><DT
+>4.3. <A
+HREF="#AEN523"
+>Sugerencia para la carga inicial</A
+></DT
+><DT
+>4.4. <A
+HREF="#AEN556"
+>Otras configuraciones de ALBA</A
+></DT
+></DL
+></DD
+><DT
+>5. <A
+HREF="#AEN561"
+>Administración</A
+></DT
+><DD
+><DL
+><DT
+>5.1. <A
+HREF="#AEN564"
+>General.</A
+></DT
+><DD
+><DL
+><DT
+>5.1.1. <A
+HREF="#AEN566"
+>Definir Organización</A
+></DT
+><DT
+>5.1.2. <A
+HREF="#AEN569"
+>Definir Establecimiento</A
+></DT
+></DL
+></DD
+><DT
+>5.2. <A
+HREF="#AEN574"
+>Configuraciones Previas</A
+></DT
+><DD
+><DL
+><DT
+>5.2.1. <A
+HREF="#AEN576"
+>Generales.</A
+></DT
+><DT
+>5.2.2. <A
+HREF="#AEN580"
+>Alumnos.</A
+></DT
+><DT
+>5.2.3. <A
+HREF="#AEN613"
+>Docentes.</A
+></DT
+><DT
+>5.2.4. <A
+HREF="#AEN628"
+>Calendarios y Horarios.</A
+></DT
+><DT
+>5.2.5. <A
+HREF="#AEN660"
+>Locaciones y Espacios.</A
+></DT
+></DL
+></DD
+><DT
+>5.3. <A
+HREF="#AEN675"
+>Seguridad.</A
+></DT
+><DD
+><DL
+><DT
+>5.3.1. <A
+HREF="#AEN678"
+>Usuario.</A
+></DT
+><DT
+>5.3.2. <A
+HREF="#AEN691"
+>Rol.</A
+></DT
+><DT
+>5.3.3. <A
+HREF="#AEN698"
+>Permiso.</A
+></DT
+><DT
+>5.3.4. <A
+HREF="#AEN701"
+>Módulo.</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>6. <A
+HREF="#AEN704"
+>Cuentas</A
+></DT
+><DD
+><DL
+><DT
+>6.1. <A
+HREF="#AEN707"
+>Administrar</A
+></DT
+><DD
+><DL
+><DT
+>6.1.1. <A
+HREF="#AEN714"
+>Crear una cuenta nueva</A
+></DT
+><DT
+>6.1.2. <A
+HREF="#AEN723"
+>Editar una cuenta</A
+></DT
+></DL
+></DD
+><DT
+>6.2. <A
+HREF="#AEN735"
+>Responsables</A
+></DT
+></DL
+></DD
+><DT
+>7. <A
+HREF="#AEN744"
+>Alumnos</A
+></DT
+><DD
+><DL
+><DT
+>7.1. <A
+HREF="#AEN747"
+>Ingresar Nuevo</A
+></DT
+><DT
+>7.2. <A
+HREF="#AEN757"
+>Listar Todos</A
+></DT
+><DT
+>7.3. <A
+HREF="#AEN762"
+>Buscar Alumno para...</A
+></DT
+><DD
+><DL
+><DT
+>7.3.1. <A
+HREF="#AEN770"
+>Editar</A
+></DT
+><DT
+>7.3.2. <A
+HREF="#AEN773"
+>Ver el Legajo</A
+></DT
+><DT
+>7.3.3. <A
+HREF="#AEN787"
+>Asistencia</A
+></DT
+><DT
+>7.3.4. <A
+HREF="#AEN797"
+>Vacunas</A
+></DT
+><DT
+>7.3.5. <A
+HREF="#AEN815"
+>Ver Boletín</A
+></DT
+><DT
+>7.3.6. <A
+HREF="#AEN818"
+>Ir a cuentas.</A
+></DT
+></DL
+></DD
+><DT
+>7.4. <A
+HREF="#AEN821"
+>Asistencia por Sección/División</A
+></DT
+><DT
+>7.5. <A
+HREF="#AEN825"
+>Cargar Boletines</A
+></DT
+><DD
+><DL
+><DT
+>7.5.1. <A
+HREF="#AEN829"
+>Concepto</A
+></DT
+><DT
+>7.5.2. <A
+HREF="#AEN842"
+>Notas</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>8. <A
+HREF="#AEN850"
+>Docentes</A
+></DT
+><DD
+><DL
+><DT
+>8.1. <A
+HREF="#AEN853"
+>Administrar</A
+></DT
+><DD
+><DL
+><DT
+>8.1.1. <A
+HREF="#AEN860"
+>Actividades por docentes</A
+></DT
+><DT
+>8.1.2. <A
+HREF="#AEN872"
+>Horarios tentativos por docente</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>9. <A
+HREF="#AEN887"
+>Gestión Escolar</A
+></DT
+><DD
+><DL
+><DT
+>9.1. <A
+HREF="#AEN890"
+>Definir Grados/Años</A
+></DT
+><DT
+>9.2. <A
+HREF="#AEN897"
+>Definir Orientaciones</A
+></DT
+><DT
+>9.3. <A
+HREF="#AEN904"
+>Definir Secciones/Divisiones</A
+></DT
+><DT
+>9.4. <A
+HREF="#AEN912"
+>Asignar Alumno a Sección/División</A
+></DT
+><DT
+>9.5. <A
+HREF="#AEN922"
+>Ingresar Materias/Actividades</A
+></DT
+><DT
+>9.6. <A
+HREF="#AEN930"
+>Actividades por Grado/Año</A
+></DT
+></DL
+></DD
+><DT
+>10. <A
+HREF="#AEN942"
+>Calendarios y Horarios</A
+></DT
+><DD
+><DL
+><DT
+>10.1. <A
+HREF="#AEN945"
+>Ir a Ciclo Lectivo Actual</A
+></DT
+><DD
+><DL
+><DT
+>10.1.1. <A
+HREF="#AEN947"
+>Ciclo lectivo</A
+></DT
+><DT
+>10.1.2. <A
+HREF="#AEN954"
+>Turnos</A
+></DT
+><DT
+>10.1.3. <A
+HREF="#AEN962"
+>Períodos</A
+></DT
+></DL
+></DD
+><DT
+>10.2. <A
+HREF="#AEN972"
+>Horario Escolar</A
+></DT
+><DD
+><DL
+><DT
+>10.2.1. <A
+HREF="#AEN974"
+>Definir horario de clases</A
+></DT
+><DT
+>10.2.2. <A
+HREF="#AEN1000"
+>Generar horario por Sección/División</A
+></DT
+></DL
+></DD
+><DT
+>10.3. <A
+HREF="#AEN1008"
+>Horario Según?</A
+></DT
+><DD
+><DL
+><DT
+>10.3.1. <A
+HREF="#AEN1010"
+>(Horario según) docentes</A
+></DT
+><DT
+>10.3.2. <A
+HREF="#AEN1018"
+>(Horario seg´n) Secci´n/Divisi´n</A
+></DT
+></DL
+></DD
+></DL
+></DD
+><DT
+>11. <A
+HREF="#AEN1025"
+>Locaciones y Espacios</A
+></DT
+><DD
+><DL
+><DT
+>11.1. <A
+HREF="#AEN1027"
+>Listado de locaciones</A
+></DT
+><DT
+>11.2. <A
+HREF="#AEN1034"
+>Listado de espacios por locación</A
+></DT
+></DL
+></DD
+><DT
+>12. <A
+HREF="#AEN1046"
+>Informes y Cosultas</A
+></DT
+><DT
+>13. <A
+HREF="#AEN1065"
+>Ayuda</A
+></DT
+><DD
+><DL
+><DT
+>13.1. <A
+HREF="#AEN1067"
+>Índice.</A
+></DT
+><DT
+>13.2. <A
+HREF="#AEN1074"
+>Manual en línea.</A
+></DT
+></DL
+></DD
+></DL
+></DIV
+><DIV
+CLASS="LOT"
+><DL
+CLASS="LOT"
+><DT
+><B
+>Lista de tablas</B
+></DT
+><DT
+>4-1. <A
+HREF="#AEN474"
+>Información cargada como Ejemplo.</A
+></DT
+></DL
+></DIV
+><DIV
+CLASS="LOT"
+><DL
+CLASS="LOT"
+><DT
+><B
+>Lista de figuras</B
+></DT
+><DT
+>1-1. <A
+HREF="#AEN330"
+>ingreso al sistema</A
+></DT
+><DT
+>1-2. <A
+HREF="#AEN337"
+>Bienvenida al sistema</A
+></DT
+><DT
+>1-3. <A
+HREF="#AEN341"
+>Recuadro superior</A
+></DT
+><DT
+>2-1. <A
+HREF="#AEN357"
+>Elementos de la pantalla principal.</A
+></DT
+><DT
+>2-2. <A
+HREF="#AEN368"
+>El menú desplegable.</A
+></DT
+><DT
+>2-3. <A
+HREF="#AEN376"
+>Botones de la barra inferior.</A
+></DT
+><DT
+>2-4. <A
+HREF="#AEN383"
+>Barras de acciones.</A
+></DT
+><DT
+>2-5. <A
+HREF="#AEN393"
+>Ventanas de filtros.</A
+></DT
+><DT
+>2-6. <A
+HREF="#AEN409"
+>Vistas de calendarios.</A
+></DT
+><DT
+>5-1. <A
+HREF="#AEN586"
+>Listados de conceptos de baja.</A
+></DT
+><DT
+>5-2. <A
+HREF="#AEN592"
+>Listados de tipo de Asistencia.</A
+></DT
+><DT
+>5-3. <A
+HREF="#AEN598"
+>Escala de notas.</A
+></DT
+><DT
+>5-4. <A
+HREF="#AEN604"
+>Tipos de entrada al legajo pedagógica.</A
+></DT
+><DT
+>5-5. <A
+HREF="#AEN610"
+>Categorías del boletín de concepto.</A
+></DT
+><DT
+>5-6. <A
+HREF="#AEN619"
+>Tipos de docente.</A
+></DT
+><DT
+>5-7. <A
+HREF="#AEN625"
+>Motivos de baja.</A
+></DT
+><DT
+>5-8. <A
+HREF="#AEN634"
+>Ciclos lectivos.</A
+></DT
+><DT
+>5-9. <A
+HREF="#AEN640"
+>Períodos.</A
+></DT
+><DT
+>5-10. <A
+HREF="#AEN648"
+>Tipos de intervalo de horario escolar.</A
+></DT
+><DT
+>5-11. <A
+HREF="#AEN657"
+>Calendario de vacunas:</A
+></DT
+><DT
+>5-12. <A
+HREF="#AEN666"
+>Tipos de locaciones.</A
+></DT
+><DT
+>5-13. <A
+HREF="#AEN672"
+>Tipos de espacios.</A
+></DT
+><DT
+>5-14. <A
+HREF="#AEN685"
+>Tipos de espacios.</A
+></DT
+><DT
+>5-15. <A
+HREF="#AEN695"
+>Tipos de espacios.</A
+></DT
+><DT
+>6-1. <A
+HREF="#AEN711"
+>Listado de cuentas.</A
+></DT
+><DT
+>6-2. <A
+HREF="#AEN727"
+>Edición de cuenta.</A
+></DT
+><DT
+>6-3. <A
+HREF="#AEN740"
+>Listado de responsables.</A
+></DT
+><DT
+>7-1. <A
+HREF="#AEN753"
+>Buscar cuenta.</A
+></DT
+><DT
+>7-2. <A
+HREF="#AEN766"
+>Búsqueda de alumnos.</A
+></DT
+><DT
+>7-3. <A
+HREF="#AEN777"
+>Legajo pedagógico.</A
+></DT
+><DT
+>7-4. <A
+HREF="#AEN784"
+>Entrada al legajo pedagógico.</A
+></DT
+><DT
+>7-5. <A
+HREF="#AEN793"
+>Asistencia por alumno.</A
+></DT
+><DT
+>7-6. <A
+HREF="#AEN801"
+>Búsqueda por alumno.</A
+></DT
+><DT
+>7-7. <A
+HREF="#AEN806"
+>Listado de alumnos para acciones.</A
+></DT
+><DT
+>7-8. <A
+HREF="#AEN811"
+>Vacuna por alumno.</A
+></DT
+><DT
+>7-9. <A
+HREF="#AEN833"
+>Búsqueda de alumnos para nota de conceptos.</A
+></DT
+><DT
+>7-10. <A
+HREF="#AEN838"
+>Notas del concepto del boletín.</A
+></DT
+><DT
+>7-11. <A
+HREF="#AEN846"
+>Notas del boletín.</A
+></DT
+><DT
+>8-1. <A
+HREF="#AEN857"
+>Listado de docentes.</A
+></DT
+><DT
+>8-2. <A
+HREF="#AEN864"
+>Listado de Actividades/Materias por Docente</A
+></DT
+><DT
+>8-3. <A
+HREF="#AEN869"
+>Editar las actividades del docente.</A
+></DT
+><DT
+>8-4. <A
+HREF="#AEN876"
+>Horarios tentativos del docente.</A
+></DT
+><DT
+>8-5. <A
+HREF="#AEN881"
+>Editar horarios tentativos por docente</A
+></DT
+><DT
+>9-1. <A
+HREF="#AEN894"
+>Creación de nuevo Grado/Año</A
+></DT
+><DT
+>9-2. <A
+HREF="#AEN901"
+>Listado de orientaciones.</A
+></DT
+><DT
+>9-3. <A
+HREF="#AEN909"
+>Alta de división.</A
+></DT
+><DT
+>9-4. <A
+HREF="#AEN918"
+>Asignar alumno a sección/división.</A
+></DT
+><DT
+>9-5. <A
+HREF="#AEN926"
+>Listado de actividades/materias.</A
+></DT
+><DT
+>9-6. <A
+HREF="#AEN934"
+>Listado de actividades por año.</A
+></DT
+><DT
+>9-7. <A
+HREF="#AEN939"
+>Alta relación actividades del año.</A
+></DT
+><DT
+>10-1. <A
+HREF="#AEN951"
+>Visualización del ciclo lectivo actual.</A
+></DT
+><DT
+>10-2. <A
+HREF="#AEN958"
+>Visualización de los turnos relativos al ciclo ectivo actual.</A
+></DT
+><DT
+>10-3. <A
+HREF="#AEN966"
+>Visualización de períodos</A
+></DT
+><DT
+>10-4. <A
+HREF="#AEN979"
+>Listado de horario escolar.</A
+></DT
+><DT
+>10-5. <A
+HREF="#AEN986"
+>Modificación (y alta) de horario escolar.</A
+></DT
+><DT
+>10-6. <A
+HREF="#AEN994"
+>Recurrencia y frecuencia.</A
+></DT
+><DT
+>10-7. <A
+HREF="#AEN1004"
+>Generación manual de horarios por división.</A
+></DT
+><DT
+>10-8. <A
+HREF="#AEN1015"
+>Horarios por docente.</A
+></DT
+><DT
+>10-9. <A
+HREF="#AEN1022"
+>Lista de divisiones y botóún "Ver horario".</A
+></DT
+><DT
+>11-1. <A
+HREF="#AEN1031"
+>Listado de locaciones.</A
+></DT
+><DT
+>11-2. <A
+HREF="#AEN1038"
+>Listado de espacios.</A
+></DT
+><DT
+>11-3. <A
+HREF="#AEN1043"
+>Editar espacio</A
+></DT
+><DT
+>12-1. <A
+HREF="#AEN1051"
+>Búsqueda de alumno para certificado.</A
+></DT
+><DT
+>12-2. <A
+HREF="#AEN1056"
+>Biblioteca de contenidos.</A
+></DT
+><DT
+>12-3. <A
+HREF="#AEN1062"
+>Visualización de boletines.</A
+></DT
+><DT
+>13-1. <A
+HREF="#AEN1071"
+>Búsqueda de alumno para certificado.</A
+></DT
+></DL
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN53"
+></A
+>Capítulo 1. Instalación del programa</H1
+><DIV
+CLASS="sect1"
+><H2
+CLASS="sect1"
+><A
+NAME="AEN55"
+>1.1. Instalación en GNU/Linux</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN57"
+>1.1.1. Requerimientos de hardware:</A
+></H3
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Los requerimientos del servidor son:</I
+></SPAN
+></P
+><P
+></P
+><UL
+><LI
+><P
+>Procesador Pentiun III</P
+></LI
+><LI
+><P
+>Ram 256</P
+></LI
+></UL
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: Los requerimientos de hardware del servidor, son relativos a la cantidad de terminales.</I
+></SPAN
+></P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Los requerimientos para la terminal son:</I
+></SPAN
+></P
+><P
+></P
+><UL
+><LI
+><P
+>Procesador Pentiun II en adelante.</P
+></LI
+><LI
+><P
+>Ram 128 en adelante (recomendado)</P
+></LI
+><LI
+><P
+>Resolución 800 x 600 mínima (recomendado 1024 x 768)</P
+></LI
+></UL
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN77"
+>1.1.2. Requerimientos de software</A
+></H3
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Los requerimientos de software del servidor son:</I
+></SPAN
+></P
+><P
+></P
+><UL
+><LI
+><P
+>Servidor Web</P
+><P
+></P
+><UL
+><LI
+><P
+>Apache 2.x</P
+></LI
+></UL
+></LI
+><LI
+><P
+>PHP</P
+><P
+></P
+><UL
+><LI
+><P
+>Versión 5</P
+></LI
+><LI
+><P
+>PHP-GD (recomendado)</P
+></LI
+></UL
+></LI
+><LI
+><P
+>Servidor de base de datos</P
+><P
+></P
+><UL
+><LI
+><P
+>Mysql 4.1.x o superior (para soporte utf8)</P
+></LI
+></UL
+></LI
+><LI
+><P
+>Aplicativo que incluye los anteriores</P
+><P
+></P
+><UL
+><LI
+><P
+>XAMPP (sugerido en los detalles de instalación)</P
+></LI
+></UL
+></LI
+><LI
+><P
+>Sistema Operativo</P
+><P
+></P
+><UL
+><LI
+><P
+>GNU/Linux</P
+></LI
+></UL
+></LI
+></UL
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Los requerimientos de software de la terminal son:</I
+></SPAN
+></P
+><P
+></P
+><UL
+><LI
+><P
+>Navegador Web</P
+><P
+></P
+><UL
+><LI
+><P
+>Mozilla Firefox (recomendado sobre cualquier sistema operativo)</P
+></LI
+></UL
+></LI
+></UL
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN117"
+>1.1.3. Instalación</A
+></H3
+><P
+>La instalación puede realizarse de manera <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>manual</I
+></SPAN
+> o <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>automática</I
+></SPAN
+>.
+    </P
+><DIV
+CLASS="sect3"
+><HR><H4
+CLASS="sect3"
+><A
+NAME="AEN122"
+>1.1.3.1. Instalación Automática:</A
+></H4
+><P
+>El sistema cuenta con un instalador para simplificar el proceso a los usuarios con menos experiencia. Para su utilización debe realizar los siguientes pasos:
+      </P
+><P
+>I) Descargue el instalador desde: </P
+><P
+><A
+HREF="http://www.proyectoalba.com.ar/alba-installer/dist/install/alba_loader.txt"
+TARGET="_top"
+><I
+CLASS="citetitle"
+>http://www.proyectoalba.com.ar/alba-installer/dist/install/alba_loader.txt</I
+></A
+></P
+><P
+>II) Una vez descargado, renómbrelo reemplazando la extensión txt por php. El nombre del archivo descargado será entonces alba_loader.php</P
+><P
+>III) Suba este archivo a su servidor (por ftp, sftp, etc).</P
+><P
+>IV) Para lanzar la instalación automática ejecute: http://su_servidor/su_directorio/alba_loader.php</P
+><P
+>V) El programa de instalación descargará los archivos necesarios, hará verificaciones sobre la existencia de los programas requeridos y los permisos de escritura. Debe completar información sobre: servidor, usuario, contraseña y nombre de la base de datos.</P
+><P
+>VI) En el momento de visualizar el ingreso al sistema, recuerde que los datos por defecto son: <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Usuario -&#62; admin Contraseña -&#62; admin</I
+></SPAN
+></P
+></DIV
+><DIV
+CLASS="sect3"
+><HR><H4
+CLASS="sect3"
+><A
+NAME="AEN135"
+>1.1.3.2. Instalación Manual</A
+></H4
+><P
+>Es posible hacer una instalación manual del sistema. Para ello es necesario seguir los siguientes pasos:</P
+><P
+>1) Obtenga el código fuente.</P
+><P
+> Puede hacerlo bajando el archivo de una versión liberada o de la que se encuentra en desarrollo por SVN.</P
+><P
+>(Desde: <A
+HREF="http://alba.pressenter.com.ar/cgi-bin/trac.cgi/wiki/ObtenerElCodigo"
+TARGET="_top"
+><I
+CLASS="citetitle"
+>http://alba.pressenter.com.ar/cgi-bin/trac.cgi/wiki/ObtenerElCodigo</I
+></A
+> puede hacerlo.)</P
+><P
+>2) Si obtuvo el código de una versión definida, descomprima el archivo descargado en un directorio accesible vía web. Si desacargó la versión del SVN procure hacerlo también en el directorio sugerido:<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>/var/www/educacion/</I
+></SPAN
+></P
+><P
+>En caso de tener que descomprimir el archivo alba-1.0X.tar.gz descomprímalo con el siguiente comando:</P
+><P
+>tar xvzf alba-1.0X.tar.gz</P
+><P
+>Si descargó el alba-1.0X.tar.bz2 con este otro: tar xvjf alba-1.0X.tar.bz2 </P
+><P
+>Esto creará un nuevo directorio dentro de educacion y, a los efectos de este instructivo, siempre llamaremos a este directorio creado "alba". Se obtendrá entonces : /var/www/educacion/alba</P
+><P
+>Luego de la descompresión pueden verse dos directorios considerados principales (alba y dist) entre otros.</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;      ft@ntbk:/var/www/educacion/alba$ ls -l
+      drwxr-xr-x 14 ft ft 4096  2006-06-27 14:21 alba
+      drwxr-xr-x 10 ft ft 4096  2006-06-27 14:35 dist
+      -rw-r--r-- 10 ft ft 16474 2006-06-27 14:35 index.php
+      drwxr-xr-x 10 ft ft 4096  2006-06-27 14:35 installer
+  </PRE
+>
+</P
+><P
+>3) Verifique los links simbólicos</P
+><P
+>Un link <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>symfofy</I
+></SPAN
+> que apunte a <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>dist/symfony-0.6.x/data/</I
+></SPAN
+> en el directorio <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>alba/data</I
+></SPAN
+>.</P
+><P
+>Este link se visualizará de la siguiente forma:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;  ft@ntbk:/var/www/educacion/alba$ ls -l alba/data
+  drwxr-xr-x 3 ft ft 4096 2006-04-07 14:21 model
+  drwxr-xr-x 3 ft ft 4096 2006-04-07 14:21 plugins
+  drwxr-xr-x 3 ft ft 4096 2006-06-27 14:21 sql
+  lrwxrwxrwx 1 ft ft   30 2006-06-27 14:21 symfony -&#62; ../../dist/symfony-0.6.2/data/ --&#62;
+  </PRE
+>
+</P
+><P
+>Los links <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>pake, phing y symfony/lib</I
+></SPAN
+> desde el <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>dist</I
+></SPAN
+> respectivamente, en el directorio <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>alba/lib</I
+></SPAN
+> :</P
+><P
+>Estos link, se deben visualizar de esta manera:/</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ ls -l alba/lib
+    drwxr-xr-x 5 ft ft 4096 2006-06-27 14:21 model
+    lrwxrwxrwx 1 ft ft   15 2006-04-07 14:21 pake -&#62; ../../dist/pake
+    lrwxrwxrwx 1 ft ft   24 2006-04-07 14:21 phing -&#62; ../../dist/phing.sandbox
+    drwxr-xr-x 3 ft ft 4096 2006-04-07 14:21 plugins
+    lrwxrwxrwx 1 ft ft   29 2006-06-27 14:21 symfony -&#62; ../../dist/symfony-0.6.2/lib/
+  </PRE
+>
+</P
+><P
+>4) Instale y configure la Base de Datos.</P
+><P
+>Debe acceder al directorio /var/www/educacion/alba/data/sql/ para utilizar tres archivos que facilitarán la tarea.</P
+><P
+>Para poder realizar los puntos siguientes debe tener los permisos necesarios en el Mysql y conocer el usuario y contraseña de su servidor, caso contrario solicítelo a su administrador.</P
+><P
+>a) Cree la base de datos:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba/data/sql$ mysql -u root &#60; create-db.sql
+  </PRE
+>
+</P
+><P
+>b) Cree las tablas:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;     ft@ntbk:/var/www/educacion/alba/data/sql$ mysql -u root alba &#60; schema.sql
+  </PRE
+>
+</P
+><P
+>Aquí usted puede seleccionar insertar los datos iniciales o los datos de ejemplo.</P
+><P
+>c) Inserte los datos:</P
+><P
+>Iniciales:
+  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba/data/sql$ mysql -u root alba &#60; datos_desde_cero.sql
+  </PRE
+>
+</P
+><P
+>o</P
+><P
+>Ejemplo:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba/data/sql$ mysql -u root alba &#60; datos_ejemplo.sql
+  </PRE
+>
+</P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Este ejemplo fue desarrollado utilizando el usuario root sin contraseña, en caso de tener una contraseña agregue el parámetro -p.</I
+></SPAN
+></P
+><P
+>5) Edite los archivos de configuración de la aplicación:</P
+><P
+>Los archivo .dist contienen una configuración predeterminada, que será necesario cambiar. Actualmente visualizará los siguientes archivos:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ ls -l alba/config/
+    -rw-r--r-- 1 ft ft   290 2006-04-07 14:19 apache.conf.dist
+    -rw-r--r-- 1 ft ft     9 2006-04-07 14:19 config.php
+    -rw-r--r-- 1 ft ft   119 2006-04-07 14:19 databases.yml.dist
+    -rw-r--r-- 1 ft ft  1968 2006-04-07 14:19 propel.ini.dist
+    -rw-r--r-- 1 ft ft    22 2006-04-07 14:19 properties.ini
+    -rw-r--r-- 1 ft ft    33 2006-04-07 14:19 rsync_exclude.txt
+    -rw-r--r-- 1 ft ft 24324 2006-06-27 14:20 schema.xml
+    -rw-r--r-- 1 ft ft   116 2006-04-07 14:19 schema.xml.sample
+  </PRE
+>
+</P
+><P
+>Edite el archivo <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>databases.yml.dist</I
+></SPAN
+> cambiando la linea 5 por los datos correspondientes a su servidor.</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ cat -n alba/config/databases.yml
+    1  all:
+    2    propel:
+    3      class:          sfPropelDatabase
+    4      param:
+    5        dsn:          mysql://USERDB:PASSDB@SERVER/DBNAME
+    6        datasource: alba
+  </PRE
+>
+</P
+><P
+>Edite el archivo <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>propel.ini.dist</I
+></SPAN
+> cambiando las líneas 4 y 5 por los datos correspondientes a su servidor.</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ cat -n alba/config/propel.ini.dist
+    1  propel.targetPackage       = model
+    2  propel.project             = alba
+    3  propel.database            = mysql
+    4  propel.database.createUrl  = mysql://USERDB:PASSDB@SERVER/
+    5  propel.database.url        = mysql://USERDB:PASSDB@SERVER/DBNAME
+    6
+    7  propel.addGenericAccessors = true
+    8  propel.addGenericMutators  = true
+    9  propel.addTimeStamp        = false
+  </PRE
+>
+</P
+><P
+>6) Renombre los siguientes archivos ya editados retirando el .dist:</P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>databases.yml</I
+></SPAN
+>: debe contener los datos de conexión a la base</P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>propel.ini</I
+></SPAN
+>: debe contener los paths correctos </P
+><P
+>7) Compruebe que en el directorio <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>alba/web</I
+></SPAN
+> exista un link llamado <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>sf</I
+></SPAN
+> apuntando a <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>data/symfony/web/sf/</I
+></SPAN
+></P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: Si el sistema corre en un directorio diferente del wwwroot (por ejemplo en un directorio de usuario /~ft) se debe agregar un Alias en la configuración de Apache ya que de otra forma /sf no es alcanzable por el servidor web.</I
+></SPAN
+></P
+><P
+>El directorio alba/web con el link creado quedará de la siguiente forma:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ ls -l -a alba/web/
+    drwxr-xr-x  3 ft ft 4096 2006-06-27 14:21 css
+    -rw-r--r--  1 ft ft   27 2006-04-07 14:21 error.php
+    -rw-r--r--  1 ft ft  613 2006-04-07 14:21 .htaccess.dist
+    drwxr-xr-x  3 ft ft 4096 2006-06-27 14:21 images
+    -rw-r--r--  1 ft ft  377 2006-04-07 14:21 index.php
+    drwxr-xr-x  4 ft ft 4096 2006-06-27 14:21 js
+    -rw-r--r--  1 ft ft  375 2006-04-07 14:21 principal_dev.php
+    -rw-r--r--  1 ft ft   24 2006-04-07 14:21 robots.txt
+    lrwxrwxrwx  1 ft ft   23 2006-04-07 14:21 sf -&#62; ../data/symfony/web/sf/
+    -rw-r--r--  1 ft ft  391 2006-04-07 14:21 unavailable.html
+    drwxr-xr-x  4 ft ft 4096 2006-04-07 14:21 uploads
+  </PRE
+>
+</P
+><P
+>Dé permisos a los usuarios en los siguientes directorios:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ chmod 777 alba/cache
+    ft@ntbk:/var/www/educacion/alba$ chmod 777 alba/log
+    ft@ntbk:/var/www/educacion/alba$ chmod 777 alba/web/uploads
+    ft@ntbk:/var/www/educacion/alba$ chmod 777 alba/web/tmp
+  </PRE
+>
+</P
+><P
+>Cree en el directorio <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>/var/www/educacion/alba</I
+></SPAN
+> un link llamado <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>public_html</I
+></SPAN
+> apuntando a <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>/var/www/educacion/alba/alba/web</I
+></SPAN
+></P
+><P
+>&#13;   <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ ln -s /var/www/educacion/alba/alba/web public_html
+   </PRE
+>
+</P
+><P
+>10) Renombre el archivo .htaccess.dist dentro de <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>alba/web</I
+></SPAN
+> quitando la extensión .dist , y edítelo cambiando en la línea 17 <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>REWRITE_PATH</I
+></SPAN
+> por <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>/alba/public_html/index.php</I
+></SPAN
+></P
+><P
+>En el archivo original, estos datos figuran de la siguiente manera:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    ft@ntbk:/var/www/educacion/alba$ cat -n alba/web/.htaccess
+    1  Options +FollowSymLinks +ExecCGI
+    2
+    3  &#60; IfModule mod_rewrite.c&#62;
+    4    RewriteEngine On
+    5
+    6    # we skip all files with .something
+    7    RewriteCond %{REQUEST_URI} \..+$
+    8    RewriteCond %{REQUEST_URI} !\.html$
+    9    RewriteRule .* - [L]
+    10
+    11    # we check if the .html version is here (caching)
+    12    RewriteRule ^$ index.html [QSA]
+    13    RewriteRule ^([^.]+)$ $1.html [QSA]
+    14    RewriteCond %{REQUEST_FILENAME} !-f
+    15
+    16    # no, so we redirect to our front web controller
+    17    RewriteRule ^(.*)$ REWRITE_PATH/index.php [QSA,L]
+    18  &#60; /IfModule&#62;
+    19
+    20  # big crash from our front web controller
+    21  ErrorDocument 500 "&#60; h2&#62;Application error&#60; /h2&#62;symfony 
+    application failed to start properly"
+  </PRE
+>
+</P
+><P
+>11) Por medio del navegador ingrese al sistema ALBA. En el ejemplo propuesto el ingreso se realizaría a través de http://su_servidor/alba/public_html/principal_dev.php</P
+><P
+>12) En el momento de visualizar el ingreso al sistema, recuerde que los datos por defecto son: <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Usuario --&#62; admin Contraseña --&#62; admin.</I
+></SPAN
+></P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>NOTA: Para un ambiente de producción se recomienda apuntar la raíz web (wwwroot) al directorio web del symfony (/var/www/educacion/alba/alba/web/). En caso de no contar con el acceso a la configuración de su servidor web, puede aumentar el nivel de seguridad generando un archivo .htaccess para restringir el acceso a otros directorios. Se recuerda a los usuarios, que se trata de una versión beta.</I
+></SPAN
+></P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN233"
+>1.2. Instalación en Windows</A
+></H2
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: Recordamos que el sistema fue probado en la versión XP.</I
+></SPAN
+></P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN237"
+>1.2.1. Requerimientos de hardware:</A
+></H3
+><P
+>Los requerimientos del servidor son:</P
+><P
+></P
+><UL
+><LI
+><P
+>Procesador Pentiun III</P
+></LI
+><LI
+><P
+>Ram 256 </P
+></LI
+></UL
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: Los requerimientos de hardware del servidor, son relativos a la cantidad de terminales.</I
+></SPAN
+></P
+><P
+>Los requerimientos para la terminal son:</P
+><P
+></P
+><UL
+><LI
+><P
+>Procesador Pentiun II en adelante </P
+></LI
+><LI
+><P
+>Ram 128 en adelante (recomendado)</P
+></LI
+><LI
+><P
+>Resolución 800 x 600 mínima (recomendado 1024 x 768)</P
+></LI
+></UL
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN255"
+>1.2.2. Requerimientos de software.</A
+></H3
+><P
+>Los requerimientos del servidor son:</P
+><P
+></P
+><UL
+><LI
+><P
+>Sistema operativo Windows (probado en XP) </P
+></LI
+><LI
+><P
+>Apache 2.x </P
+></LI
+><LI
+><P
+>PHP 5 </P
+></LI
+><LI
+><P
+>PHP-GD (recomendado)</P
+></LI
+><LI
+><P
+>Mysql </P
+></LI
+><LI
+><P
+>ó</P
+></LI
+><LI
+><P
+>XAMPP (sugerido en los detalles de instalación). </P
+></LI
+></UL
+><P
+>Los requerimientos de la terminal son: </P
+><P
+></P
+><UL
+><LI
+><P
+>Navegador web (Firefox recomedado, sobre cualquier sistema operativo).</P
+></LI
+></UL
+><P
+>Para la instalación del ALBA sobre Windows, es necesario realizar la instalación previa del Apache, MySQL y PHP (si es que ya no se encuentra instalado). Para facilitarla se  propone al usuario la instalación de XAMPP, aplicación que contiene a las últimas tres.</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN278"
+>1.2.3. La instalación del XAMPP</A
+></H3
+><P
+>Bajar el XAMPP del sitio:  <A
+HREF="http://sourceforge.net/projects/xampp/"
+TARGET="_top"
+><I
+CLASS="citetitle"
+>http://sourceforge.net/projects/xampp/</I
+></A
+></P
+><P
+>1) Una vez seleccionada la opción de "Download", será necesario elegir una versión para windows (XAMPP Windows), ya que existe también para otros sistemas operativos. Entre las que propone el sitio, se sugiere que se elija la versión   xampp-win32-1.5.5-installer.exe (versión con la que fue probado). </P
+><P
+>Ejecutando el archivo de instalación del XAMPP (.exe) las pantallas lo guiarán para una instalación exitosa. Si sigue las opciones predeterminadas esta aplicación se instalará en  c:\Archivos de Programa\</P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: En el momento de iniciar la instalación, recuerde estar en un perfil de usuario de Windows con permiso de administrador.</I
+></SPAN
+></P
+><P
+>2) Es necesario habilitar la instalación del Apache y del MySQL como servicio durante el proceso. Para ello, deberá tildar en la opción de Service Section: </P
+><P
+>&#13;<SPAN
+CLASS="QUOTE"
+>"
+-Install Apache as service
+-Install MySQL as service
+"</SPAN
+>
+</P
+><P
+>Siga los pasos indicados, hasta finalizar la instalación con éxito.
+</P
+><P
+>3) Finalizada la instalación, será necesario modificar el archivo llamado "httpd.conf" que está ubicado en: c:\Archivos de programa\xampp\apache\conf\httpd.conf. Para modificarlo ábralo en cualquier procesador de texto y borre el numeral (#) que se encuentra al inicio de la línea siguiente:
+</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    # LoadModule rewrite_module modulo/mod_rewrite.so
+  </PRE
+>
+</P
+><P
+>La línea modificada quedará entonces: </P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    LoadModule rewrite_module modulo/mod_rewrite.so
+  </PRE
+>
+</P
+><P
+>Recuerde guardar los cambios al salir del editor. </P
+><P
+>4) Deberá reiniciar al servidor Apache para que los cambios realizados en el archivo editado sean tomados por el XAMPP. Puede hacerlo a través de su panel de control, presionando el botón "Stop" y luego, "Start" correspondiente a ese servicio.
+</P
+><P
+><SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nota: El panel de Control del XAMPP, puede ubicarlo desplegando la barra de inicio o desde un acceso directo creado en su escritorio.</I
+></SPAN
+>
+  </P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN301"
+>1.2.4. La instalación de ALBA</A
+></H3
+><P
+>Una vez instalado el XAMPP, tendrá todo el software necesario para poder comenzar la instalación de ALBA. </P
+><P
+>Recuerde reportar los problemas encontrados durante la instalación de ALBA a: <A
+HREF="http://alba.pressenter.com.ar/cgi-bin/trac.cgi/wiki/ReporteDeErrores"
+TARGET="_top"
+><I
+CLASS="citetitle"
+>http://alba.pressenter.com.ar/cgi-bin/trac.cgi/wiki/ReporteDeErrores</I
+></A
+></P
+><P
+>1) Cree un directorio en la raíz web, en el cual se instalará el sistema.
+En este caso, sugerimos crear el directorio con nombre "alba", que deberá ubicarse en el siguiente directorio (siempre que el xampp se haya instalado de la forma predeterminada).
+</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    C:\Archivos de programa\xampp\htdocs\alba
+  </PRE
+>
+</P
+><P
+>2) Baje el instalador (loader): </P
+><P
+>&#13;<PRE
+CLASS="programlisting"
+>&#13;  <A
+HREF="http://alba.ourproject.org/alba-installer/dist/install/alba_loader.txt"
+TARGET="_top"
+><I
+CLASS="citetitle"
+>http://alba.ourproject.org/alba-installer/dist/install/alba_loader.txt</I
+></A
+>
+  </PRE
+>
+</P
+><P
+>Al ingresar a esta dirección, se desplegará en pantalla el texto del programa de instalación.</P
+><P
+>3) Renombre el archivo.</P
+><P
+>En la misma pantalla, utilizando desde el menú del navegador "Guardar página como", guarde el archivo renombrando su extensión txt por php. El nombre del archivo descargado será entonces alba_loader.php</P
+><P
+>4) Copie el archivo a un directorio accesible por el servidor web.
+En el caso del ejemplo, se trata del directorio:.</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    C:\Archivos de programa\xampp\htdocs\alba
+  </PRE
+>
+</P
+><P
+>5) Ejecute el instalador (loader)  ingresando a través del navegador web a:</P
+><P
+>&#13;  <PRE
+CLASS="programlisting"
+>&#13;    http://localhost/alba/alba_loader.php
+  </PRE
+>
+</P
+><P
+>6) Dé comienzo a la instalación.</P
+><P
+>7) El programa de instalación descargará los archivos necesarios, hará verificaciones sobre la existencia de los programas requeridos y los permisos de escritura. Debe completar información sobre: servidor, usuario, contraseña y nombre de la base de datos.
+</P
+><P
+>8) Complete la información: servidor: localhost; usuario: root, contraseña: (ninguna) y nombre de la base de datos: la que desee.</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN327"
+>1.3. Ingreso al sistema</A
+></H2
+><P
+>Una vez instalado, el sistema mostrará la siguiente pantalla de ingreso: </P
+><DIV
+CLASS="figure"
+><A
+NAME="AEN330"
+></A
+><P
+><B
+>Figura 1-1. ingreso al sistema</B
+></P
+><P
+><IMG
+SRC="img/figura1.png"></P
+></DIV
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;    Recuerde que al ingresar al sistema por primera vez estará habilitada únicamente la cuenta de administrador --&#62; Usuario: admin y Clave: admin. A partir de allí podrá cambiar la clave y crear los nuevos usuarios (ver Capítulo 5 apartado "Seguridad").
+  </P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;  <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Una pantalla de bienvenida le indicará información sobre ALBA, así como la el detalle de las libertades que definen al Software Libre y posibilidades de contacto.</I
+></SPAN
+>
+</P
+><DIV
+CLASS="figure"
+><A
+NAME="AEN337"
+></A
+><P
+><B
+>Figura 1-2. Bienvenida al sistema</B
+></P
+><P
+><IMG
+SRC="img/figura2.png"></P
+></DIV
+><P
+>En el vértice superior derecho de la pantalla, podrá ver el usuario activo (así como el detalle del establecimiento y el ciclo lectivo, si es que ya se encuentran ingresados y el sistema se utilizó con anterioridad).
+</P
+><DIV
+CLASS="figure"
+><A
+NAME="AEN341"
+></A
+><P
+><B
+>Figura 1-3. Recuadro superior</B
+></P
+><P
+><IMG
+SRC="img/figura3.png"></P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN344"
+>1.4. Salida del sistema</A
+></H2
+><P
+>Para salir de ALBA es posible utilizar el acceso de la barra superior orizontal. </P
+><P
+>Es importante <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>haber grabado la información actual </I
+></SPAN
+> antes de optar por salir por medio del menú. Al salir, el sistema mostrará nuevamente la pantalla de ingreso al sistema (como para iniciar una nueva sesión con un usuario del sistema).</P
+><P
+>Recuerde que aunque no se encuentre trabajando dentro del sistema, el navegador puede permanecer abierto y que, por el contrario, al cerrar el navegador ALBA se cerrará tambié.</P
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN350"
+></A
+>Capítulo 2. Interfaz de ALBA.</H1
+><P
+>&#13;La interfaz de ALBA está compuesta por diversos elementos gráficos con  características que se detallan a continuación. Es importante recordar que, como se trata de una aplicación cuyo uso se desenvuelve sobre un navegador, existen muchas funciones de este último que conviven con las de esta aplicación específica. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN353"
+>2.1. 2.1 La pantalla principal  de ALBA.</A
+></H2
+><P
+>&#13;La siguiente pantalla detalla, a modo de ejemplo, los elementos más usuales que la conforman. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN357"
+></A
+><P
+><B
+>Figura 2-1. Elementos de la pantalla principal.</B
+></P
+><P
+><IMG
+SRC="img/figura4.png"></P
+></DIV
+>
+</P
+><P
+>&#13;1- Encabezado. 
+2- Información actual sobre: usuario, establecimiento y ciclo lectivo. 
+3- Barra de menú desplegable. 
+4- Título del módulo elegido 
+5- Cuerpo del módulo: en este marco se desarrolla cada módulo en particular. 
+6- Barra de botones inferiores. (Pueden variar según el módulo mostrado). 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN361"
+>2.2. Los elementos más importantes de las pantallas.</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN363"
+>2.2.1. El menú desplegable.</A
+></H3
+><P
+>&#13;Durante el desarrollo completo del uso de la herramienta se mantiene visible una barra horizontal desde donde se accede a las diferentes secciones del menú. (Ver referencia 3 en el listado anterior). 
+	</P
+><P
+>&#13;Al pasar con el mouse sobre él, se despliegan todas las opciones que contiene. A su vez, es posible que alguno de ellos contenga un submenú dentro, que está señalizado por un triángulo negro y pequeño, a modo de flecha hacia la derecha. 
+	</P
+><P
+>&#13;		<DIV
+CLASS="figure"
+><A
+NAME="AEN368"
+></A
+><P
+><B
+>Figura 2-2. El menú desplegable.</B
+></P
+><P
+><IMG
+SRC="img/figura5.png"></P
+></DIV
+>
+	</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN371"
+>2.2.2. Los botones de la barra inferior.</A
+></H3
+><P
+>&#13;Al pie de los diferentes listados se pueden encontrar una serie de botones especialmente creados para manejar la información de los mismos. 
+	</P
+><P
+>&#13;Así pues el sistema permite: Crear un nuevo registro, Listar los registros, Guardar un registro creado, guardar y permitir a su vez agregar uno nuevo, borrar el registro; así como un acceso directo por ejemplo al módulo "Cuentas" (si se trata del listado de alumnos), entre otras funciones.  
+	</P
+><P
+>&#13;	<DIV
+CLASS="figure"
+><A
+NAME="AEN376"
+></A
+><P
+><B
+>Figura 2-3. Botones de la barra inferior.</B
+></P
+><P
+><IMG
+SRC="img/figura6.png"></P
+></DIV
+>
+	</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN379"
+>2.2.3. Las barras de acciones.</A
+></H3
+><P
+>&#13;Son barras de botones, que funcionan como accesos a determinadas acciones a realizar sobre un elemento.  El siguiente gráfico muestra algunos de los distintos tipos de barras que se presentan a lo largo del uso del ALBA, y la explicación de cada botón a modo de ejemplo. De todas formas, al pasar con el mouse sobre el ícono, se informa el nombre de la acción. 
+	</P
+><P
+>&#13;	<DIV
+CLASS="figure"
+><A
+NAME="AEN383"
+></A
+><P
+><B
+>Figura 2-4. Barras de acciones.</B
+></P
+><P
+><IMG
+SRC="img/figura7.png"></P
+></DIV
+>
+	</P
+><P
+>&#13;Algunos ejemplos se indican en esta lista: 
+</P
+><P
+>&#13;
+1.Botón "Editar": permite ingresar a los datos cargados y modificarlos. 
+2.Botón "Borrar": elimina el registro.
+3.Botón "Ir a cuenta": acceso directo a la cuenta relacionada con el alumno o con un responsable. 
+4.Botón "Vacunas": acceso directo al listado de Vacunas por alumno.
+5.Botón "Asistencias": acceso directo al módulo de asistencia de alumnos. 
+6.Botón "Legajo": acceso directo al legajo pedagógico el alumno. 
+7.Botón "Boletín": acceso directo a la carga de notas en el boletín de los alumnos según división. 
+8.Botón "Locación": acceso directo al listado de las locaciones de un establecimiento. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN388"
+>2.2.4. Ventanas de filtros.</A
+></H3
+><P
+>&#13;Las ventanas de filtro, permiten hacer una búsqueda por uno o más criterios determinados. en un listado. El ejemplo muestra una búsqueda que puede realizarse por tres criterios distintos. El botón inferior borrar, elimina la búsqueda realizada y el filtrar la inicia. 
+</P
+><P
+>&#13;Diferentes módulos del ALBA utilizan este sistema para mejorar las búsquedas.
+</P
+><P
+>&#13;	<DIV
+CLASS="figure"
+><A
+NAME="AEN393"
+></A
+><P
+><B
+>Figura 2-5. Ventanas de filtros.</B
+></P
+><P
+><IMG
+SRC="img/figura8.png"></P
+></DIV
+>
+	</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN396"
+>2.2.5. Los listados de los datos.</A
+></H3
+><P
+>&#13;Los listados generados por los datos ingresados cuentan con los botones típicos de una barra inferior y con una barra de acciones (generalmente de edición y otras acciones según sea el caso). Estos listados, pueden ser ordenados haciendo click en el título de la columna, de donde tomará el criterio de la forma de ordenamiento de datos (ascendente/descendente, o alfabético ascendente y descendente). 
+</P
+><P
+>&#13;Existen en algunos casos específicos (como el del listado de Provincias) un orden diferente establecido por defecto. Como en el caso nombrado, se cuenta con el campo "orden" que  establece un "peso" del dato, para su ordenamiento posterior en los listados. A mayor número, mayor peso y por ende, más bajo aparecerá el dato. 
+</P
+><P
+>&#13;Los listados pueden contar con más de una página, y por ello cuentan con flechas para repaginar.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN401"
+>2.2.6. Los mensajes al grabar.</A
+></H3
+><P
+>&#13;Siempre que se realice una acción sobre los listados (como edición, borrado o ingreso de un registro nuevo); en la parte superior de éstos se indicará el resultado de la acción. 
+</P
+><P
+>&#13;Un criterio muy básico de colores, además del mensaje textual, informará si el resultado fue exitoso (color verde) o si se presentó alguna dificultad (color rojo). Los errores que pueden aparecer, casi siempre son relativos a la falta de información obligatoria para la carga del registro.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN405"
+>2.2.7. Las vistas de calendarios</A
+></H3
+><P
+>&#13;En el caso de módulos relacionados con los calendarios y horarios, el sistema ofrecer diferentes vistas de calendarios a modo de agenda. En esos casos es posible visualizar "eventos" diaria, semanal, mensual y anualmente. Para más información sobre el concepto de "evento" puede consultar el Capítulo 3. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN409"
+></A
+><P
+><B
+>Figura 2-6. Vistas de calendarios.</B
+></P
+><P
+><IMG
+SRC="img/figura8bis.png"></P
+></DIV
+>
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN412"
+></A
+>Capítulo 3. Diccionario de conceptos</H1
+><P
+>&#13;La siguiente lista presenta las definiciones de los conceptos utilizados para la elaboración de este sistema de gestión. Algunos de ellos reflejan elementos utilizados en la vida cotidiana de las escuelas; otros, por el contrario, son útiles para establecer funcionalidades para otra clase de unidades educativas. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN415"
+>3.1. Los conceptos</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN417"
+>3.1.1. Cuentas</A
+></H3
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>La cuenta</I
+></SPAN
+> es utilizada en ALBA como un elemento para organizar información de varios alumnos con un responsable común. Una cuenta funciona muchas veces como una familia particular, pero puede no ser exactamente una familia en sentido estricto. Una cuenta integra: un responsable de la misma y un grupo de alumnos relacionados. En un futuro, también integrará información contable de los pagos de las cuotas en el caso de escuelas o unidades educacionales privadas. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN421"
+>3.1.2. Espacios</A
+></H3
+><P
+>&#13;Un espacio es un lugar que pertenece a una locación de un establecimiento en particular. Ejemplo de un espacio es un aula, un laboratorio, un gimnasio, etc. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN424"
+>3.1.3. Establecimiento</A
+></H3
+><P
+>&#13;Unidad donde se organiza la oferta educativa y que cuenta con una autoridad máxima como responsable pedagógico administrativo. El establecimiento puede tener diferentes locaciones. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN427"
+>3.1.4. Eventos</A
+></H3
+><P
+>&#13;Unidad de tiempo y espacio. En el marco del proyecto ALBA los eventos son utilizados para compartir información sobre estas unidades a lo largo de toda la aplicación. Así, por ejemplo, las horas de clase son consideradas "eventos" y la disponibilidad de los horarios de los docentes se traducen de igual forma  en "eventos". El hecho de que sean organizados utilizando este concepto permite visualizar esta información a modo de calendario gráfico y también exportarla a distintas agendas a través de un standard llamado ICal. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN430"
+>3.1.5. Grados/Años</A
+></H3
+><P
+>&#13;Según el nivel escolar los grados (primaria) o años (secundaria) se definen como un grupo de alumnos que se agrupan según edad y plan de estudios.  Los grados o años pueden tener diferentes secciones/divisiones. (Un ejemplo de grado en primaria sería Primero. En el caso de secundarios: Primer año bachiller, ya que define el plan de estudios.)
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN433"
+>3.1.6. Locación</A
+></H3
+><P
+>&#13;La locación de un establecimiento, es el espacio físico donde se desarrolla la tarea educativa. Una locación puede categorizarse en sedes o anexos. (ALBA permite otras clasificaciones de locaciones en caso de ser necesario). 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN436"
+>3.1.7. Módulo</A
+></H3
+><P
+>&#13;Un módulo agrupa diferentes acciones sobre un determinado elemento. Por ejemplo el módulo de alumnos tiene toda la funcionalidad necesaria para administrar los alumnos. ALBA, como software modular, prevé que cada módulo pueda funcionar separadamente de otros.</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN439"
+>3.1.8. Organización</A
+></H3
+><P
+>&#13;Una organización refiere a una persona jurídica que administra uno o más establecimientos. En ALBA, el módulo organización permite el ingreso de todos los datos administrativos y comerciales de la misma. (Por ejemplo, para el cobro a través de un futuro módulo contable en caso de tratarse de establecimientos educativos privados. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN442"
+>3.1.9. Permiso</A
+></H3
+><P
+>&#13;Un permiso ofrece el acceso a determinada funcionalidad de los módulos del sistema. ALBA cuenta con un sistema de permisos para administrar la seguridad, donde un usuario puede tener asignados permisos para unos módulos y otros no (según lo gestione el administrador del sistema).
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN445"
+>3.1.10. Responsables</A
+></H3
+><P
+>&#13;Un responsable de cuenta, es aquel adulto que siendo o no familiar de los alumnos relacionados con la misma, lleva adelante la tarea de recibir información del establecimiento, actualizar la información de los alumnos de la cuenta, responder ante las consultas administrativas de la organización, etc. 
+</P
+><P
+>&#13;ALBA permite establecer la relación (parental o no) entre el responsable y los alumnos de la cuenta, así como establecer si cuentan con el permiso del retiro del menor del establecimiento. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN449"
+>3.1.11. Rol</A
+></H3
+><P
+>&#13;Un rol es un grupo de permisos que se le da a una determinada persona según el papel y las responsabilidades que tome en el establecimiento. Por ejemplo, un rol puede ser el de <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Secretaria/o</I
+></SPAN
+>, al que se le puede asignar los permisos de edición de información alumnos, emisión de consultas y listados etc. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN453"
+>3.1.12. Sección/División</A
+></H3
+><P
+>&#13;Una sección es un grupo escolar formado por alumnos que cursan o no el mismo grado o año, en el mismo espacio y con el mismo equipo de docentes. Por ejemplo, en una escuela primaria pueden existir las secciones <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>A</I
+></SPAN
+> y <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>B</I
+></SPAN
+>.  En ALBA (como en la forma de expresión coloquial) se toma a la división como un <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>grado/año + sección/división</I
+></SPAN
+>, siendo entonces un grupo de alumnos que comparten el docente, el espacio y el grado/año, pongamos por caso: <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Primer Grado A.</I
+></SPAN
+> 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN460"
+>3.1.13. Usuarios</A
+></H3
+><P
+>&#13;Se denomina usuario a la identidad que con nombre y clave propia, cuenta con diferentes permisos (o roles si ya tiene uno definido) para realizar acciones en el sistema ALBA. En ALBA el administrador del sistema crea nuevos usuarios y define los diferentes accesos según sean las responsabilidades del mismo. 
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN463"
+></A
+>Capítulo 4. Usando ALBA por primera vez</H1
+><P
+>&#13;Al insatalar ALBA por primera vez el sistema ya cuenta con información precargada para facilitar su uso inicial. Si bien la precarga contempla especialmente escuelas de la Ciudad de Buenos Aires, todas las precargas pueden ser modificadas según la necesidad del usuario, ya que muchas se ofrecen a modo de ejemplo.
+</P
+><P
+>&#13;En las siguientes secciones se presenta el tipo de información precargada así como una sugerencia para la carga inicial, la primera vez que se utiliza ALBA.
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN467"
+>4.1. Información precargada</A
+></H2
+><P
+>&#13;Existe información que se encuentra precargada en el sistema para permitir su funcionamiento inicial: por un lado un Establecimiento y una Organización, y  por otro todo lo referido al manejo interno del sistema de módulos, permisos y usuarios. 
+</P
+><P
+>&#13;Además de estos datos, se encuentran precargados algunos generales como son: el Calendario de Vacunación, los Países, las Provincias (de Argentina), los tipos de documento posible, los tipos de IVA así como los posibles niveles educativos del establecimiento. 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN471"
+>4.2. Información cargada como Ejemplo (Demo)</A
+></H2
+><P
+>&#13;Si optó por la opción de instalar ALBA integrando los datos del Ejemplo, también contará como precargados los siguientes datos. 
+</P
+><DIV
+CLASS="table"
+><A
+NAME="AEN474"
+></A
+><P
+><B
+>Tabla 4-1. Información cargada como Ejemplo.</B
+></P
+><TABLE
+BORDER="1"
+FRAME="border"
+RULES="all"
+CLASS="CALSTABLE"
+><COL
+WIDTH="1*"
+TITLE="a1"><COL
+WIDTH="1*"
+TITLE="a2"><THEAD
+><TR
+><TH
+>Respecto de</TH
+><TH
+>Información cargada como ejemplo.</TH
+></TR
+></THEAD
+><TBODY
+><TR
+><TD
+>Generales</TD
+><TD
+>Listado de distritos escolares de CABA.</TD
+></TR
+><TR
+><TD
+>Alumnos</TD
+><TD
+>&#13;<P
+>Alumnos. </P
+>
+<P
+>Posibles motivos de baja. </P
+>
+<P
+>Tipos de legajo de alumno.</P
+>
+<P
+>Tipo de asistencia.</P
+>
+<P
+>Ítems Legajo pedagógico. </P
+>
+<P
+>Ítems conceptuales a evaluar.</P
+>
+</TD
+></TR
+><TR
+><TD
+>Docentes</TD
+><TD
+>&#13;<P
+>Tipos de docentes.</P
+>
+<P
+>Motivos de baja de docentes.</P
+>
+<P
+>Asignación de materias a docentes.</P
+>
+<P
+>Horarios tentativos de docentes.</P
+>
+</TD
+></TR
+><TR
+><TD
+>Horarios</TD
+><TD
+>&#13;<P
+>Turnos posibles.</P
+>
+<P
+>Tipos de intervalos de horario.</P
+>
+<P
+>Feriados del año (actual).</P
+>
+</TD
+></TR
+><TR
+><TD
+>Locaciones</TD
+><TD
+>&#13;      <P
+>Tipos de locación.</P
+>
+<P
+>Tipos de espacios.</P
+>
+</TD
+></TR
+><TR
+><TD
+>Cuentas</TD
+><TD
+>Listado de cuentas con sus responsables y alumnos asociados.</TD
+></TR
+><TR
+><TD
+>Gesión escolar</TD
+><TD
+>&#13;<P
+>Grados/Años.</P
+>
+<P
+>Secciones/Divisiones.</P
+>
+<P
+>Materias/Actividades.</P
+>
+</TD
+></TR
+></TBODY
+></TABLE
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN523"
+>4.3. Sugerencia para la carga inicial</A
+></H2
+><P
+>Una vez instalado ALBA será necesario seguir un orden lógico para la carga inicial de los datos: </P
+><P
+>&#13;1) cargar la <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Organización y el Establecimiento.</I
+></SPAN
+> 
+Accediendo por el menú desplegable Administración --&#62; General --&#62; Definir Organización y Administración --&#62; General  --&#62; Definir Establecimiento, podrá modificar los datos precargados a los de su organización y establecimiento.
+</P
+><P
+>&#13;2) revisar y editar si es necesario las <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Configuraciones Previas</I
+></SPAN
+>.
+Dentro de esta sección Administración --&#62; General --&#62; Configuraciones Previas, se encuentran diversos ítems relacionados a Asuntos Generales, Alumnos, Docentes, Calendarios y Horarios, Locaciones y Espacios.  
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;Recuerde que si Ud. instaló una versión con ejemplo, todas las configuraciones previas de esta sección del menú, cuentan con una precarga inicial que es posible editar a la medida de las necesidades del establecimiento. Es por ello que se sugiere se revise previamente al uso. 
+</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;También será necesario incorporar algunos criterios temporales y de horarios para habilitar el uso correcto del ALBA. 
+</P
+><P
+>&#13;3) definir el <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> Ciclo Lectivo actual. </I
+></SPAN
+>
+Ingresando desde el menú desplegable a Calendarios y Horarios --&#62; Definir Ciclos Lectivos, es posible acceder al listado de los ciclos lectivos del pasado (si los hubiere) y agregar uno nuevo con su correspondiente inicio y fin. A su vez, será necesario marcar con un tilde cuál será el ciclo predeterminado como actual.  El seleccionado, se mostrará por defecto en el ángulo superior derecho mientras se trabaja con el ALBA. 
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;Es posible acceder a otros ciclos lectivos cambiándolo directamente del cuadro de estado del vértice superior derecho, sin necesidad de cambiar el predeterminado.
+</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;Se debe tener en cuenta también, que desde la barra de acciones del listado de ciclos lectivo, se accede a Definir Turnos y Períodos. 
+</P
+><P
+>&#13;4) definir el <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> Horario de Clases. </I
+></SPAN
+> 
+Ingresando desde el menú desplegable a Calendarios y Horarios --&#62; Horario Escolar --&#62; Definir horario de clases, se completan las horas cátedras y recreos (por ejemplo) que conforman el horario escolar. El Turno y el Tipo de horario escolar deberán estar cargados con anterioridad correctamente. 
+</P
+><P
+>&#13;Será necesario incorporar también información respecto de la gestión escolar: 
+</P
+><P
+>&#13;5) Definir <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Grados/Años.</I
+></SPAN
+>
+Ingresando desde el menú desplegable Gestión Escolar --&#62; Definir Grados/Años, es posible organizar los diferentes niveles, donde luego serán ingresados (en relación a su vez con las secciones/divisiones) los alumnos.
+</P
+><P
+>&#13;6) Definir <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Secciones/Divisiones.</I
+></SPAN
+>
+Ingresando desde el menú desplegable Gestión Escolar --&#62; Definir Secciones/Divisiones. Como se dijo, las secciones/divisiones junto con los años/grados, permiten asignar un alumno a un grupo determinado (definido por año y sección).
+</P
+><P
+>&#13;Por último, se debe ingresar todo lo referente a las cuentas y a los individuos relacionados con ésta (responsables, alumnos): 
+</P
+><P
+>&#13;7) Ingresar las <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Cuentas.</I
+></SPAN
+> 
+Desde el menú desplegable, ingresando a Cuentas --&#62; Administración, es posible dar de alta así como editar y borrar cuentas anteriores. 
+Desde este mismo menú, también es posible a partir del botón "Agregar alumnos y responsables", es posible incorporar los sujetos asociados a la cuenta. (Ver Cap. 6).
+</P
+><P
+>&#13;8) Ingresar los <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Responsables.</I
+></SPAN
+>
+Desde el menú desplegable, ingresando a Cuentas --&#62; Responsables, se definen y administran los Responsables. En la carga se solicitan no solamente los datos administrativos, sino también la relación con la Cuenta y con los Alumnos de la cuenta. 
+</P
+><P
+>&#13;9) Ingresar <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Alumnos.</I
+></SPAN
+> 
+Desde el menú desplegable, ingresando a Alumnos --&#62; Ingresar Nuevo, se permite el ingreso de los nuevos alumnos, que relacionados con una cuenta, luego se insertarán en un grado/año y una división/sección determinada. 
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13; recuerde que es posible agregar los responsables y alumnos de la cuenta (incluso duplicando los datos de dirección y teléfono) a partir del botón "Agregar alumnos y responsables" accesible ingresando a una cuenta, desde el listado de cuentas.
+</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;El resto de los datos (como Docentes, Materias/Actividades, Locaciones y Espacios, etc.) se pueden ingresar en cualquier momento, siempre antes de establecer la relaciones (como el caso de Actividades/Materias por docente, Espacios por Locaciones, etc.)
+</P
+><P
+>&#13;Lo mismo sucede con la gestión de Alumnos en relación a las Secciones/Divisiones, y todo lo vinculado a Asistencia y Calificaciones: una vez cargadas todas las opciones necesarias, se pueden realizar las relaciones sin mayores dificultades.  
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN556"
+>4.4. Otras configuraciones de ALBA</A
+></H2
+><P
+>&#13;Otra de las configuraciones iniciales importantes pueden ser previas a la carga de la información sugerida, es la carga de los <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Usuarios</I
+></SPAN
+> que utilizarón el sistema. Ingresando desde el menú desplegable  Administración --&#62; Seguridad --&#62; Usuarios.
+</P
+><P
+>&#13;La jerarquía y accesos posibles de los Usuarios al sistema, está dada según los Roles que le sean asignados, y los Permisos con los que cuente.  (Ver 5.4 Seguridad).
+</P
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN561"
+></A
+>Capítulo 5.  Administración</H1
+><P
+>&#13;La sección Administración del menú desplegable, ofrece las primeras herramientas para configurar ALBA a la medida de las necesidades de su institución. Como se dijo, muchos de los datos se encuentran precargados para posibilitar un uso inicial. En esos casos será necesario editar esa información. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN564"
+>5.1. General.</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN566"
+>5.1.1. Definir Organización</A
+></H3
+><P
+>&#13;ALBA provee como ejemplo datos cargados del nombre y la descripción de la organización, que deberán ser removidos y completados. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN569"
+>5.1.2. Definir Establecimiento</A
+></H3
+><P
+>&#13;De la misma forma, será necesario editar los datos del o los establecimientos con los que cuente la organización. 
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;Recuerde que ALBA posibilita la gestión de varios establecimientos de una misma organización. (Puede revisar las definiciones de ambos conceptos en el Capítulo 3 ante cualquier duda).
+</P
+></TD
+></TR
+></TABLE
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN574"
+>5.2. Configuraciones Previas</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN576"
+>5.2.1. Generales.</A
+></H3
+><P
+>&#13;En este tipo de configuración se incluyen los <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>países, provincias, distritos escolares, categorías de IVA, Tipos de documento y Tipo de nivel.</I
+></SPAN
+> Recuerde que todos los datos precargados pueden ser modificados según la necesidad del establecimiento. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN580"
+>5.2.2. Alumnos.</A
+></H3
+><P
+>&#13;Integra las configuraciones de: 
+</P
+><P
+>&#13;1) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>tipos de posibles bajas de alumnos</I
+></SPAN
+>: que establecen las posibles motivaciones de las bajas de alumnos, por ejemplo: pase, enfermedad etc. En este listado se ingresa el nombre del tipo de baja y una breve descripción explicativa. Se permiten acciones de edición.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN586"
+></A
+><P
+><B
+>Figura 5-1. Listados de conceptos de baja.</B
+></P
+><P
+><IMG
+SRC="img/figura9.png"></P
+></DIV
+>
+</P
+><P
+>&#13;2) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> tipos de asistencia que utilice el establecimiento</I
+></SPAN
+>: donde se definen asistencia e inasistencia, un nombre corto usual y un valor. Este último, permite contabilizar las inasistencias que no son completas (el caso de media falta que se indicará como 0,5 o en algunos establecimientos impuntualidad, etc.) Al dar de alta un nuevo tipo de asistencia, se debe indicar a qué grupo pertenece: si es asistencia (positiva) o inasistencia, y se define también cuál es el que quedará indicado como por defecto (se sugiere sea el de asistencia). Se permiten acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN592"
+></A
+><P
+><B
+>Figura 5-2. Listados de tipo de Asistencia.</B
+></P
+><P
+><IMG
+SRC="img/figura10.png"></P
+></DIV
+>
+</P
+><P
+>&#13;3) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>escala de notas:</I
+></SPAN
+> permite definir, según el establecimiento, valores para la evaluación (ya sea numérica o conceptual) y si éstos corresponden a la categoría de "aprobado" o no de las actividades/materias. El "orden" indicará la sucesión en que se visualizarán. Tiene habilitadas las acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN598"
+></A
+><P
+><B
+>Figura 5-3. Escala de notas.</B
+></P
+><P
+><IMG
+SRC="img/figura11.png"></P
+></DIV
+>
+</P
+><P
+>&#13;4) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> tipos de entrada al legajo pedagógico</I
+></SPAN
+>: clasifica la información textual que se ingresará en los legajos pedagógicos de los alumnos. Por ejemplo, puede crearse la categoría de "Seguimiento Docente" (ingresos de textos al legajo referidos al desempeño del alumno en clase) o del "Equipo de Orientación Escolar" (informes del equipo o del gabinete). Es posible crear una nueva categoría de entrada al legajo según el tipo de establecimiento y el nivel. (Por ejemplo, en el caso de un jardín de infantes puede incluirse la categoría "Entrevista inicial con los padres".) Permite acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN604"
+></A
+><P
+><B
+>Figura 5-4. Tipos de entrada al legajo pedagógica.</B
+></P
+><P
+><IMG
+SRC="img/figura12.png"></P
+></DIV
+>
+</P
+><P
+>&#13;5) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>categorías del boletín de concepto</I
+></SPAN
+>: complementa la "escala de notas" (punto 3), ofreciendo definir otros ítems que integrarán el boletín a nivel conceptual. Los elementos, pueden incluirse más allá de la forma de evaluarlos (con nota, con comentarios textuales, etc). La carga solicita el nombre del ítem, y una breve descripción. Permite acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN610"
+></A
+><P
+><B
+>Figura 5-5. Categorías del boletín de concepto.</B
+></P
+><P
+><IMG
+SRC="img/figura13.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN613"
+>5.2.3. Docentes.</A
+></H3
+><P
+>&#13;Integra las configuraciones de: 
+</P
+><P
+>&#13;1) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>tipos de docente</I
+></SPAN
+>: permite establecer los diferentes categorías de docentes según el cargo, proporcionando una breve descripción. Posibilita acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN619"
+></A
+><P
+><B
+>Figura 5-6. Tipos de docente.</B
+></P
+><P
+><IMG
+SRC="img/figura14.png"></P
+></DIV
+>
+</P
+><P
+>&#13;2) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>motivos de baja</I
+></SPAN
+>:  se establecen las posibles motivaciones de las bajas de docentes, por ejemplo: renuncia, retiro, ascenso etc. En este listado se ingresa el nombre del tipo de baja del cargo y una breve descripción explicativa. Se permiten acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN625"
+></A
+><P
+><B
+>Figura 5-7. Motivos de baja.</B
+></P
+><P
+><IMG
+SRC="img/figura15.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN628"
+>5.2.4. Calendarios y Horarios.</A
+></H3
+><P
+>&#13;Integra las configuraciones de: 
+</P
+><P
+>&#13;1) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Ciclos Lectivos</I
+></SPAN
+>: permite ingresar un nuevo ciclo lectivo indicando nombre, fecha de inicio y fin. Uno de los ciclos lectivos deberá ser señalizado como el actual y actuará como predeterminado en las futuras cargas de datos. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN634"
+></A
+><P
+><B
+>Figura 5-8. Ciclos lectivos.</B
+></P
+><P
+><IMG
+SRC="img/figura16.png"></P
+></DIV
+>
+</P
+><P
+>&#13;2) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Períodos</I
+></SPAN
+>: los períodos organizan el ciclo lectivo en partes (como bimestres, trimestres, etc.) Es necesario indicar los períodos para la incorporación de calificaciones futuras de los alumnos y otras visualizaciones de la información. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN640"
+></A
+><P
+><B
+>Figura 5-9. Períodos.</B
+></P
+><P
+><IMG
+SRC="img/figura17.png"></P
+></DIV
+>
+</P
+><P
+>&#13;3) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>turnos</I
+></SPAN
+>: permite definir los turnos del establecimiento. En la carga se solicita el nombre (descripción) del turno y el horario de inicio y fin. Contempla el uso de acciones de edición. 
+</P
+><P
+>&#13;4) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>tipos de intervalo de horario escolar</I
+></SPAN
+>: definir este tipo de elemento, permite la construcción futura de los horarios de los docentes y las divisiones.  Recuerde que se trata de "tipos" de intervalos y que la duración y ubicación de éstos se realizan en la sección del menú desplegable "Calendarios y Horarios --&#62; Horario Escolar --&#62; Definir horario de clases. Permite acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN648"
+></A
+><P
+><B
+>Figura 5-10. Tipos de intervalo de horario escolar.</B
+></P
+><P
+><IMG
+SRC="img/figura18.png"></P
+></DIV
+>
+</P
+><P
+>&#13;5) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>feriados del año</I
+></SPAN
+>: define los feriados celebrados duranten el ciclo lectivo. Como existen feriados inamovibles y otros trasladables (así como días no laborables), la carga de los feriados del año permite diferenciar los que son: anuales (de repetición anual) y los que son inamovibles (que no se trasladan) en un determinado ciclo lectivo. Así pues, es posible definir feriados productos de situaciones particulares o locales que no se repiten a lo largo del año, o que no sean parte del calendario de feriados oficiales del país. Esta herramienta, cuenta con un acceso directo a la información oficial del país (Argentina) desde el botón: "Listado oficial". Permite acciones de edición. 
+</P
+><P
+>&#13;6) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>calendario de vacunas: </I
+></SPAN
+> muestra el listado de vacunas oficiales informadas por el Ministerio de Salud (Rep. Argentina), indicando nombre, descripción, período/edad en que se recibe y observaciones. Se tratan de <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+> datos precargados </I
+></SPAN
+> que permiten de todas formas su edición y actualización de ser necesario. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN657"
+></A
+><P
+><B
+>Figura 5-11. Calendario de vacunas:</B
+></P
+><P
+><IMG
+SRC="img/figura19.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN660"
+>5.2.5. Locaciones y Espacios.</A
+></H3
+><P
+>&#13;Integra las configuraciones de:
+</P
+><P
+>&#13;1) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>tipos de locaciones</I
+></SPAN
+>: define los diferentes tipos de locaciones dentro de un mismo establecimiento. Existen datos precargados que diferencian el tipo Sede y Anexo para facilitar la carga, pero pueden existir más tipos según el establecimiento gestionado. Admite acciones de edición. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN666"
+></A
+><P
+><B
+>Figura 5-12. Tipos de locaciones. </B
+></P
+><P
+><IMG
+SRC="img/figura20.png"></P
+></DIV
+>
+</P
+><P
+>&#13;2) <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>tipos de espacios</I
+></SPAN
+>: define los espacios que pueden gestionarse en cada locación según criterios de funcionalidad.  ALBA provee los datos del Ejemplo  para facilitar la carga inicial, pero la herramienta admite acciones de edición.  
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN672"
+></A
+><P
+><B
+>Figura 5-13. Tipos de espacios. </B
+></P
+><P
+><IMG
+SRC="img/figura21.png"></P
+></DIV
+>
+</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN675"
+>5.3. Seguridad.</A
+></H2
+><P
+>&#13;Integra las configuraciones de:
+</P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN678"
+>5.3.1. Usuario.</A
+></H3
+><P
+>&#13;Esta herramienta permite administrar los usuarios del sistema ALBA. Una vez ingresado al sistema como usuario admin (que es creado por defecto durante la instalación), es posible crear nuevos usuarios que también podrán administrar todos o algunos de los módulos de ALBA. El listado de usuarios, posee un filtro para la búsqueda según usuario y establecimiento, así como botones de barra inferior para agregar nuevos. 
+</P
+><P
+>&#13;Al crear un nuevo usuario se le solicitará nombre, una clave, e-mail,   establecimiento al que pertenece, y una pregunta y respuesta para recuperar la clave a través del e-mail.  Una vez creado, desde el listado de usuarios puede accederse a través del botón de acción "Permisos" -identificado con el ícono de un candado- a la herramienta que gestionará los accesos a las diferentes partes del ALBA.
+</P
+><P
+>&#13;Por ejemplo, así como el admin tiene acceso a todos los módulos,  un usuario "X" puede tener acceso únicamente al legajo de los alumnos o a las asistencias. Para ello, existe una pantalla que lista todos los posibles permisos y que ofrece la selección de uno o varios para cada usuario.
+</P
+><P
+>&#13;Este módulo posee un sistema de flechas que posibilita la selección de los permisos del usuario en cuestión (Permisos Seleccionados) de una lista de Permisos Disponibles, donde el símbolo &#62; indica el pase de un único módulo, y el &#62;&#62; de todos los disponibles.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN685"
+></A
+><P
+><B
+>Figura 5-14. Tipos de espacios. </B
+></P
+><P
+><IMG
+SRC="img/figura22.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Si se define que el usuario debe contar con los permisos de determinado rol (ver sección siguiente), al seleccionarlo en el cuadro superior, se informarán como posibles permisos aquellos asociados al rol elegido. Debe incorporarlos al listados de Permisos Seleccionados a través del sistema de flechas. 
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>Este capítulo puede sufrir modificaciones. Los cambios se encuentran en elaboración.
+</P
+></TD
+></TR
+></TABLE
+></DIV
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN691"
+>5.3.2. Rol.</A
+></H3
+><P
+>&#13;A través de esta herramienta es posible dar de alta diferentes perfiles para utilizar ALBA. Los role, se utilizan para asociar un grupo de diferentes permisos que proveen accesos definidos según las gestiones que realice la persona en el sistema ALBA. El listado de roles posibles permite acciones de edición, y su funcionamiento (así como la asociación con diferentes permisos) se establece de la misma forma que con un usuario (seleccionando permisos que tendrá el rol de una lista de posibles). 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN695"
+></A
+><P
+><B
+>Figura 5-15. Tipos de espacios. </B
+></P
+><P
+><IMG
+SRC="img/figura23.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN698"
+>5.3.3. Permiso.</A
+></H3
+><P
+>&#13;A través de esta herramienta se administran los permisos de seguridad para cada módulo que contiene ALBA. Usualmente, no es utilizado por el destinatario final de esta herramienta. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN701"
+>5.3.4. Módulo.</A
+></H3
+><P
+>&#13;Desde aquí, se administran los módulos y las credenciales que contiene ALBA. Usualmente, no es utilizado por el destinatario final de esta herramienta.
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN704"
+></A
+>Capítulo 6.  Cuentas</H1
+><P
+>&#13;La sección Cuentas del menú desplegable ofrece las herramientas necesarias para organizar la información de varios alumnos con un responsable común. Una cuenta puede funcionar como una familia particular, pero también puede no ser una familia en sentido estricto. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN707"
+>6.1. Administrar</A
+></H2
+><P
+>&#13;Desde este menú es posible crear nuevas cuentas y gestionar las existentes. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN711"
+></A
+><P
+><B
+>Figura 6-1. Listado de cuentas.</B
+></P
+><P
+><IMG
+SRC="img/figura24.png"></P
+></DIV
+>
+</P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN714"
+>6.1.1. Crear una cuenta nueva</A
+></H3
+><P
+>&#13;Para crear una cuenta nueva se debe utilizar el acceso al pié que indica "Nuevo" y completar siguientes  datos: 
+</P
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Nombre:</I
+></SPAN
+> Una denominación de la cuenta, que puede expresar (por ejemplo) el apellido de una familia o el nombre de otra organización que nuclea un grupo de alumnos. 
+</P
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Razón Social, CUIT y tipo de IVA:</I
+></SPAN
+> Si se trata de una persona jurídica la que se responsabiliza de los alumnos (especialmente cuando se trata de toma a cargo de valores en unidades educativas privadas). El CUIT posibilita el cobro de futuras transacciones.
+</P
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Dirección, Ciudad, CP, Teléfono</I
+></SPAN
+>, son datos solicitados también.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN723"
+>6.1.2. Editar una cuenta</A
+></H3
+><P
+>&#13;El listado de Cuentas, posee barra de acción de edición. Por otro lado, tanto haciendo click sobre el nombre de la cuenta como en el ícono triangular de la barra de acción, es posible visualizar los responsables y los alumnos asociados, así como agregar nuevos. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN727"
+></A
+><P
+><B
+>Figura 6-2. Edición de cuenta.</B
+></P
+><P
+><IMG
+SRC="img/figura25.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Al <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>agregar tanto alumnos como responsables</I
+></SPAN
+> desde esta pantalla, quedarán asociados a la <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>cuenta</I
+></SPAN
+> correspondiente. En ambos casos, es posible duplicar la información de Dirección, Ciudad, CP y Teléfono de la cuenta a estas personas; utilizando el botón <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>"Cargar datos de la Cuenta"</I
+></SPAN
+>.  
+</P
+><P
+>&#13;Las listas de alumnos y responsables asociados a la cuenta, también poseen una barra de  acciones que permite editarlos y acceder a diferentes herramientas. En el caso de Alumnos puede acceder a (Vacunas, Asistencias, Legajos, Boletín) y tratándose de Responsables posee acciones de edición.
+</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN735"
+>6.2. Responsables</A
+></H2
+><P
+>&#13;Todos los responsables de las cuentas constituyen un listado completo que puede ser utilizado (si bien una cuenta puede tener varios responsables) para lograr una comunicación directa y no redundante con éstos, sin la intercesión de los alumnos asociados. 
+</P
+><P
+>&#13;Como todo listado, éste puede ser ordenado según diversos criterios y cuenta con la herramienta de filtrado para realizar búsquedas. También tienen opciones de edición y de acceso a la cuenta asociada.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN740"
+></A
+><P
+><B
+>Figura 6-3. Listado de responsables.</B
+></P
+><P
+><IMG
+SRC="img/figura26.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Accediendo desde el apellido del responsable (clickeando), se permite la edición de los datos del mismo. Le recordamos que el rol de cada responsable se elije entre aquellos asignados en Administración --&#62; Configuraciones previas --&#62; Alumnos --&#62; Definir Roles de responsables. 
+</P
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN744"
+></A
+>Capítulo 7. Alumnos</H1
+><P
+>&#13;La sección Alumnos del menú desplegable ofrece la posibilidad de administrar el listado de alumnos según divisiones, generando nuevas altas, haciendo búsquedas para acciones futuras y gestionando la asistencia y los boletines. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN747"
+>7.1. Ingresar Nuevo</A
+></H2
+><P
+>&#13;Además de la posibilidad de ingresar un alumno a una cuenta existente (desde los botones de acción de la misma cuenta), existe también el ingreso de un alumno de manera independiente. 
+</P
+><P
+>&#13;Esta carga solicita como datos obligatorios: Apellidos, Nombres, Sexo, Tipo y Número de Documentos, Lugar y Fecha de Nacimiento, Nacionalidad, Email y Dirección. También se solicitan ciertos datos para resolver las prioridades de ingreso (situación que se da especialmente en escuelas públicas): distancia de la escuela y el caso de hermanos en la escuela o padres docentes en la escuela. 
+</P
+><P
+>&#13;Luego de esta carga, al tratarse de un ingreso de alumno independiente de la cuenta, existe un cuadro de búsqueda sobre el listado de cuentas existentes a partir de cuatro letras del nombre. También permite la creación de una nueva cuenta desde esta misma pantalla, y luego asociarla (realizando la búsqueda nuevamente). 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN753"
+></A
+><P
+><B
+>Figura 7-1. Buscar cuenta.</B
+></P
+><P
+><IMG
+SRC="img/figura27.png"></P
+></DIV
+>
+</P
+><P
+>&#13;El link "Nueva Cuenta" abrirá un cuadro sobre la superficie de la ventana, donde se deben incorporar todos los datos necesario de la cuenta (ver capítulo anterior). 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN757"
+>7.2. Listar Todos</A
+></H2
+><P
+>&#13;La opción de listar todos ofrece una vista de todos los registros ordenados en principio alfabéticamente. Como todo listado, permite el ordenamiento según otros parámetros de las otras columnas: por ejemplo clickeando sobre el número de documento lo ordenará ascendente o descendentemente. 
+</P
+><P
+>&#13;Por cada alumno el listado cuenta con una barra de acciones que a su vez habilita tanto acciones de edición (editar y borrar) como el acceso a la cuenta (Ir a cuenta), el ingreso de vacunas que recibió el alumno (Vacunas), el registro de Asistencias (Asistencias), la carga y consulta al Legajo pedagógico del alumno (Legajo) y la visualización del boletín (Ver Boletín).
+</P
+><P
+>&#13;Esta misma barra de acciones (con excepción de la acción de "Borrar") se encuentra disponible en los resultados de la búsqueda "Buscar alumnos para...", que se desarrolla en el punto siguiente. Es posible además utilizar Filtros para la búsqueda a través del nombre del alumno (o parte), de una división en particular y del número de documento.
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN762"
+>7.3. Buscar Alumno para...</A
+></H2
+><P
+>&#13;Esta opción del menú ofrece la posibilidad de búsqueda sobre toda el listado de alumnos según el nombre y apellido (o alguna de sus partes), según divisiones o de ambas a la vez. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN766"
+></A
+><P
+><B
+>Figura 7-2. Búsqueda de alumnos.</B
+></P
+><P
+><IMG
+SRC="img/figura28.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Las siguientes son las acciones que se pueden realizar una vez individualizado el alumno sobre el que se trabajará y su explicación según aparecen en la barra: 
+</P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN770"
+>7.3.1. Editar</A
+></H3
+><P
+>&#13;El botón editar, como en todos los casos, habilita el cambio de cualquier dato del registro del alumno. También permite borrar al alumno por completo.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN773"
+>7.3.2. Ver el Legajo</A
+></H3
+><P
+>&#13;El botón "Ver el legajo" permite visualizar los datos ingresados del legajo pedagógico del alumno, así como agregar nuevas entradas al legajo. La vista inicial de esta acción ofrece, por un lado, el listado de todas las entradas al legajo de ese alumno, y por otro un filtro que permite visualizar esas entradas según los ítems creados por el administrador. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN777"
+></A
+><P
+><B
+>Figura 7-3. Legajo pedagógico.</B
+></P
+><P
+><IMG
+SRC="img/figura29.png"></P
+></DIV
+>
+</P
+><P
+>&#13;El listado muestra la fecha, el título, el resumen de la entrada, la categoría y los botones de acciones de edición; y permite a su vez ingresar a cada entrada y verla con detalle cliqueando sobre el botón de edición. 
+</P
+><P
+>&#13;Desde el listado de entradas del legajo, también es posible retornar al listado de alumnos  a través de su barra de botones inferiores, así como ir a la cuenta correspondiente del mismo. La opción "Nuevo" posibilita la inclusión de una nueva entrada al legajo pedagógico. 
+</P
+><P
+>&#13;El ingreso de una nueva entrada al legajo le solicitará los datos básicos (que son los indicados en el listado de entradas) así como el "Texto" que es el detalle de la entrada. Esta herramienta también permite adjuntar un archivo separado asociado a alguna entrada en el legajo.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN784"
+></A
+><P
+><B
+>Figura 7-4. Entrada al legajo pedagógico.</B
+></P
+><P
+><IMG
+SRC="img/figura30.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN787"
+>7.3.3. Asistencia</A
+></H3
+><P
+>&#13;El botón Asistencia permite visualizar y/o cargar las asistencia del alumno elegido. Las asistencias pueden verse diaria, semanal, quincenal o mensualmente.  La pantalla de asistencias, al igual que al ingresar directamente desde el menú y no desde un alumno en particular, permite elegir la fecha de inicio desde la cual se mostrarón los días, como también la vista. 
+</P
+><P
+>&#13;A partir de los datos ingresados (previamente guardados) se generará un gráfico de torta que mostrará los porcentajes según la periodicidad elegida. La pantalla de Asistencias también cuenta con una ayuda de las diferentes categorías (Asistencia, Inasistencia, Tarde, etc.) y su respectiva vista inicial para la carga.
+</P
+><P
+>&#13;Cabe destacar que para el ingreso de la asistencia de una sección/división completa, existe el acceso a asistencias desde el menú principal:  Alumnos --&#62; Asistencia por Sección/División.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN793"
+></A
+><P
+><B
+>Figura 7-5. Asistencia por alumno.</B
+></P
+><P
+><IMG
+SRC="img/figura31.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Esta pantalla también permite regresar al  listado de alumnos y a la cuenta asociada al alumno particular del cual se muestra el estado de la asistencia. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN797"
+>7.3.4. Vacunas</A
+></H3
+><P
+>&#13;El  acceso a Vacunas permite elegir un alumno (o una sección/división) para consultar o agregar los registros de vacunas aplicadas. Recuerde que una vez indicado el alumno o seleccionada la sección/división debe cliquear el botón Buscar. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN801"
+></A
+><P
+><B
+>Figura 7-6. Búsqueda por alumno.</B
+></P
+><P
+><IMG
+SRC="img/figura32.png"></P
+></DIV
+>
+</P
+><P
+>&#13;En el caso de ingresar por división ALBA listará los alumnos de la misma para acceder a alguno en particular.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN806"
+></A
+><P
+><B
+>Figura 7-7. Listado de alumnos para acciones.</B
+></P
+><P
+><IMG
+SRC="img/figura33.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Al acceder a un alumno en particular ALBA permite visualizar y utilizar todos los comandos de edición de los registros de vacunación y elegir entre: editar el registro de vacunación, borrarlo, ir a la cuenta a la que pertenece el alumno o volver al listado completo de alumnos (opciones todas, expresadas en la barra de acciones).
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN811"
+></A
+><P
+><B
+>Figura 7-8. Vacuna por alumno.</B
+></P
+><P
+><IMG
+SRC="img/figura34.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Como puede verse, la vista de vacunas por alumno permite una nueva búsqueda a partir del filtro que se encuentra a la derecha posibilitando una carga más dinómica de las vacunas de diferentes alumnos.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN815"
+>7.3.5. Ver Boletín</A
+></H3
+><P
+>&#13;Esta opción permite visualizar gráficamente las entradas en el Boletín del alumno seleccionado.  Esa vista se genera previamente con la información ingresada durante la carga de notas del boletín.
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN818"
+>7.3.6. Ir a cuentas.</A
+></H3
+><P
+>&#13;El último botón de la barra de acciones presentada en el menú "Buscar alumnos para..." presenta la opción de ir a la cuenta a la que pertenece el alumno y desde allí a su vez a editar y consultar responsables y otros alumnos de la cuenta. 
+</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN821"
+>7.4. Asistencia por Sección/División</A
+></H2
+><P
+>&#13;Esta pantalla permite realizar operaciones de asistencia para todos los alumnos pertenecientes a una sección/división. A tales efectos cuenta con una opción de búsqueda a través de una ventana de filtro de sección/división, una definición del inicio de la visualización y una elección sobre el período (diario, semanal, etc.) Recuerde utilizar el botón "Mostrar" para visualizar el listado luego de elegir las diferentes opciones.
+</P
+><P
+>&#13;Esencialmente funciona de la misma forma que el botón "Asistencias" indicado en la sección anterior y cuenta con las misma herramientas. El objetivo principal de esta función es la carga periódica de asistencias de cada uno de los grupos de parte de los responsables y la elaboración estadísticas al respecto. 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN825"
+>7.5. Cargar Boletines</A
+></H2
+><P
+>&#13;La sección de boletines ofrece dos tipos diferentes de registros de evaluaciones sobre los alumnos. Por un lado las evaluaciones sobre los ítems configurados como Categorías del Boletín de Concepto a las cuales se accede desde Configuraciones Previas--&#62; Alumnos --&#62; Definir Categorías del Boletín de Conceptos desarrollado en el Punto 5.2.2.
+</P
+><P
+>&#13;Por otro lado las evaluaciones sobre las Actividades/Materias curriculares según la Escala de notas que se configuraron con anterioridad a partir del Menú Configuraciones Previas--&#62; Alumnos --&#62; Definir Escala de Notas.
+</P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN829"
+>7.5.1. Concepto</A
+></H3
+><P
+>&#13;El ingreso a Boletín de Concepto invita a elegir la División y el Concepto tanto sea a consultar como a editar o cargar nuevos registros. Una vez seleccionado ambos aspectos se desplegará la opción de definir el período a visualizar y posteriormente el listado de alumnos correspondientes a esa Sección/División 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN833"
+></A
+><P
+><B
+>Figura 7-9. Búsqueda de alumnos para nota de conceptos.</B
+></P
+><P
+><IMG
+SRC="img/figura35.png"></P
+></DIV
+>
+</P
+><P
+>&#13;La carga de notas de concepto permite tanto valores ( por ejemplo B, MB, R etc.) como texto descriptivo (en el casillero más largo). Algunos ejemplos de esto último son dimensiones del comportamiento o ítems en los que puede definirse se destaca o tiene dificultades.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN838"
+></A
+><P
+><B
+>Figura 7-10. Notas del concepto del boletín.</B
+></P
+><P
+><IMG
+SRC="img/figura36.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Recuerde utilizar siempre el botón inferior Grabar para guardar los cambios ingresados en el listado de notas de concepto de una determinada Sección/División. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN842"
+>7.5.2. Notas</A
+></H3
+><P
+>&#13;De la misma forma, el ingreso a Boletín Notas permite colocar las calificaciones según las Actividades/ Materias con el rango de valores definidos con anterioridad y en los determinados períodos.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN846"
+></A
+><P
+><B
+>Figura 7-11. Notas del boletín.</B
+></P
+><P
+><IMG
+SRC="img/figura37.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Según la tabla de valores para calificar, podrán utilizarse tanto letras como números. Recuerde que debe seleccionar la Actividad/Materia a calificar y que no debe olvidar "Grabar" los cambios en los registros. 
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN850"
+></A
+>Capítulo 8. Docentes</H1
+><P
+>&#13;Esta sección permitirá la gestión de todos los docentes del establecimiento en relación a sus datos personales, las Materias/Actividades y la organización de los Horarios de clase según la carga de Horarios tentativos de los docentes al inicio del Ciclo Lectivo. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN853"
+>8.1. Administrar</A
+></H2
+><P
+>&#13;La herramienta "Administrar" permite el acceso a todo el listado de docentes que, como todo listado, ofrece a su derecha un filtro para facilitar la búsqueda. Los botones de acciones de cada registro del listado permiten asimismo: editar el registro, borrar, ir a "Actividades por Docentes" y "Horarios tentativos por docente". Estos dos últimos se detallan a continuación y corresponden a los últimos dos íconos de la barra de acciones. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN857"
+></A
+><P
+><B
+>Figura 8-1. Listado de docentes.</B
+></P
+><P
+><IMG
+SRC="img/figura38.png"></P
+></DIV
+>
+</P
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN860"
+>8.1.1. Actividades por docentes</A
+></H3
+><P
+>&#13;Esta herramienta permite visualizar la relación entre un docente y la materia/actividad que dicta. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN864"
+></A
+><P
+><B
+>Figura 8-2. Listado de Actividades/Materias por Docente</B
+></P
+><P
+><IMG
+SRC="img/figura39.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Al ingresar a la Edición de un docente, a través del botón de la barra de acciones, es posible editar también las Actividades asociadas a cada docente.  La metodología consiste en  un sistema de flechas gráficas que permite trasladar del listado de Materias/Actividades no asociadas (de la izquierda) las materias que dicta el Docente al listado de la derecha o de Activdades/Materias Asociadas al Docente.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN869"
+></A
+><P
+><B
+>Figura 8-3. Editar las actividades del docente.</B
+></P
+><P
+><IMG
+SRC="img/figura40.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN872"
+>8.1.2. Horarios tentativos por docente</A
+></H3
+><P
+>&#13;Por medio del botón "Horarios tentativos por Docente" se visualiza en forma de Evento la disponibilidad del docente para elaborar los horarios definitivos. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN876"
+></A
+><P
+><B
+>Figura 8-4. Horarios tentativos del docente.</B
+></P
+><P
+><IMG
+SRC="img/figura41.png"></P
+></DIV
+>
+</P
+><P
+>&#13;La disponibilidad expresada en el texto anterior se genera al ingresar los datos en la siguiente pantalla a la cual se accede desde el botón de la barra de acciones "Editar".  Por supuesto a esta misma pantalla se ingresa para incorporar un evento nuevo en los horarios tentativos de un Docente. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN881"
+></A
+><P
+><B
+>Figura 8-5. Editar horarios tentativos por docente</B
+></P
+><P
+><IMG
+SRC="img/figura42.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Como se puede ver en la pantalla la Edición o Alta de los Horarios tentativos de un determinado docente, los eventos que componen esos horarios están definidos por una determinada recurrencia y frecuencia.  
+</P
+><P
+>&#13;En primer lugar se define el evento con un comienzo y fin, donde puede indicarse días y horarios de finalización.  En este caso, el evento (la disponibilidad) que tiene frecuencia y repetición es de un día determinado de 7.30am a 12.15pm.  Esa disponibilidad, que puede repetirse diaria, semanal, mensual o anualmente, se repite en este ejemplo semanalmente, cada 1 semana y de lunes a viernes. 
+</P
+><P
+>&#13;La "Frecuencia" determinará, asimismo, cuando finalizará la repetición del evento pudiendo elegir entre no colocar una fecha definida, definir alguna en especial o determinar una cantidad de veces. 
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN887"
+></A
+>Capítulo 9. Gestión Escolar</H1
+><P
+>&#13;En esta secció del menú se agrupan las acciones orientadas específicamente a la Gestión  Escolar propiamente dicha: la definición de años, orientaciones, divisiones etc.,  así como la relación entre los alumnos y los grupos definidos según los criterios anteriores, y la relaci´ de las Actividades/Materias con los diferentes  niveles. 
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN890"
+>9.1. Definir Grados/Años</A
+></H2
+><P
+>&#13;Esta sección posibilita la configuración de los diferentes conjuntos de alumnos agrupados según la edad y plan de estudios. Así pues, es posible definir los diferentes  grados y/o  años   según los niveles que el establecimiento tenga. La siguiente  figura muestra el formulario para la  creación  de un nuevo Grado/Año que solicita, únicamente, la "Descripción" a modo de nombre.  Cuenta con opciones de edición.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN894"
+></A
+><P
+><B
+>Figura 9-1. Creación de nuevo Grado/Año</B
+></P
+><P
+><IMG
+SRC="img/figura43.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN897"
+>9.2. Definir Orientaciones</A
+></H2
+><P
+>&#13;De igual forma que los Grados/Años las orientaciones deben ser difinidas con anterioridad a la carga de los alumnos y se realiza de manera similar.  Como siempre, se puede acceder a la edición de las entradas del listado a través del botón Editar de  la barra de acciones.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN901"
+></A
+><P
+><B
+>Figura 9-2. Listado de orientaciones.</B
+></P
+><P
+><IMG
+SRC="img/figura44.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN904"
+>9.3. Definir Secciones/Divisiones</A
+></H2
+><P
+>&#13;A través de este menú se definen las Secciones/Divisiones de los diferentes Grados/Años. Este listado también cuenta con la barra de acciones de botones de edición.
+</P
+><P
+>&#13;Al dar de alta una nueva Sección o División el sistema solicita indicar también: el Año o Grado, una descripción (como A, B) y la orientación de corresponder (como en el caso de colegios secundarios).  También solicitará el turno y el orden.  Es importante recordar que el orden definirá el criterio en que se hará la visualización: mayor número de orden, más bajo en el listado (si es ascendente). 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN909"
+></A
+><P
+><B
+>Figura 9-3. Alta de división.</B
+></P
+><P
+><IMG
+SRC="img/figura45.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN912"
+>9.4. Asignar Alumno a Sección/División</A
+></H2
+><P
+>&#13;Esta opción permite relacionar un alumno a un año y división determinada.  En el listado de alumnos se despliegan alfabéticamente aquellos alumnos (asignados o no). Los ya asignados indicarán a qué grupo determinado  pertenecen, y los no asignados no mostrarán (al lado del nombre) esta relación.  
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>Se espera desarrollar mejoras en la forma de asignación en la próxima versión. 
+</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN918"
+></A
+><P
+><B
+>Figura 9-4. Asignar alumno a sección/división.</B
+></P
+><P
+><IMG
+SRC="img/figura46.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Para relacionar ambos elementos, se debe seleccionar un alumno y una división y  cliquear el botón de guardado.  Es posible también listar todo el conjunto de los alumnos y su relación alumno división. 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN922"
+>9.5. Ingresar Materias/Actividades</A
+></H2
+><P
+>&#13;Esta sección del menú permite ingresar (con todos las opciones de edición disponibles) las materias o actividades que realizan los alumnos del establecimiento. Inicialmente, al ingresar es posible ver el listado completo de actividades. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN926"
+></A
+><P
+><B
+>Figura 9-5. Listado de actividades/materias.</B
+></P
+><P
+><IMG
+SRC="img/figura47.png"></P
+></DIV
+>
+</P
+><P
+>&#13;A través del botón inferior "Nuevo" ALBA permitirá dar de alta nuevas materias o actividades brindadas por el establecimiento con un nombre y una descripción.  La siguiente sección desplegable del menú, completa el trabajo de asociar estas actividades con una determinada división. 
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN930"
+>9.6. Actividades por Grado/Año</A
+></H2
+><P
+>&#13;El ingreso inicial a esta sección mostrará la lista de las actividades según el año, la orientacion (si la hubiera) así como las horas semanales que se le asignan según las diferntes currículas. También se visualizará un filtro para facilitar las búsquedas y, por supuesto, la barra de acciones de edición.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN934"
+></A
+><P
+><B
+>Figura 9-6. Listado de actividades por año.</B
+></P
+><P
+><IMG
+SRC="img/figura48.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Al elegir "Nuevo" en el botón inferior se desplegará las categorías de Año, Actividad, Orientación y Horas semanales para crear una nueva relación entre Actividad y Año. La relación puede establecerse también con determinada orientación específica (especialmente para casos de niveles secundarios).
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN939"
+></A
+><P
+><B
+>Figura 9-7. Alta relación actividades del año.</B
+></P
+><P
+><IMG
+SRC="img/figura49.png"></P
+></DIV
+>
+</P
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN942"
+></A
+>Capítulo 10. Calendarios y Horarios</H1
+><P
+>&#13;Esta secció del menú organiza la información relativa a la gestión del tiempo, permitiendo una fácil visualización gráfica de los horarios.
+</P
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN945"
+>10.1. Ir a Ciclo Lectivo Actual</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN947"
+>10.1.1. Ciclo lectivo</A
+></H3
+><P
+>&#13;El ingreso a esta sección permite editar todos los componentes del ciclo lectivo pudiendo definir el día de comienzo y finalizacióndel mismo para cada establecimiento. ALBA, como en el resto de los lugares donde se definen fechas, cuenta con la herramienta de calendarios para elegirla visualmente. Para ello debe desplegarla del botón que se encuentra a los lados de los espacios para la carga de las fechas. Como el Ciclo Lectivo se defiea con anterioridad, el sistema no permite la modificación más allá del comienzo y finalización.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN951"
+></A
+><P
+><B
+>Figura 10-1. Visualización del ciclo lectivo actual.</B
+></P
+><P
+><IMG
+SRC="img/figura50.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN954"
+>10.1.2. Turnos</A
+></H3
+><P
+>&#13;En la misma pantalla, es posible definir los Turnos relacionados con el ciclo lectivo actual. Para definirlos inicailmente se deben completar los espacios en blanco (ubicados en la parte inferior). Los trunos ya cargados, permitirán la edición de las horas de inicio y fin así como el borrado completo del turno. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN958"
+></A
+><P
+><B
+>Figura 10-2. Visualización de los turnos relativos al ciclo ectivo actual.</B
+></P
+><P
+><IMG
+SRC="img/figura51.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Para desplegar la selección de los horarios, recuerde cliquear en los triángulos invertidos negros posicionados al costado de horas y minutos. Lo mismo sucederá en la selección antes y pos meridiano. 
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN962"
+>10.1.3. Períodos</A
+></H3
+><P
+>&#13;El alta de períodos (espacios temporales del año en que se divide el ciclo lectivo) permite, al igual que los turnos, definir inicio y fin a través de la herramienta gráfica del calendario, así como la eliminación. Recuerde que la incorporación de los períodos siempre están asociados al ciclo lectivo actual y por ello se despliega en la misma pantalla. Como en el caso de turnos, para el alta deberá completar el espacio en blanco inferior.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN966"
+></A
+><P
+><B
+>Figura 10-3. Visualización de períodos </B
+></P
+><P
+><IMG
+SRC="img/figura52.png"></P
+></DIV
+>
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+> 
+Una vez establecidos los datos correctos en cada sección (ciclo lectivo, turnos y períodos) es necesario que grabe la información con el botón inferior "Grabar". 
+</P
+></TD
+></TR
+></TABLE
+></DIV
+><P
+>&#13;Es posible, asimismo, listar todos los ciclos lectivos (no únicamente el actual) desde el botón inferior "Listar los ciclos lectivos". En caso de seleccionar otro ciclo (por ejemplo el futuro) será posible configurarlo con los datos correspondientes de turnos y períodos para programar el trabajo del año siguiente a través del último botón de la barra inferior.
+</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN972"
+>10.2. Horario Escolar</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN974"
+>10.2.1. Definir horario de clases</A
+></H3
+><P
+>&#13;Al ingresar a esta sección del menú se desplegará, en caso de ya haberse cargado, el listado de las horas que componen los diferentes turnos del establecimiento. Cada una de las horas está pensada como "evento" de un calendario que se comparte a lo largo de toda la aplicación. Por este motivo el listado de cada una de las horas cátedras, así como los recreos, están definidos según criterios que se desarrollan más adelante.
+</P
+><P
+>&#13;En el listado figurará el nombre del intervalo, una descripción y la definición del evento (con su respectivo inicio y finalización, una repetición de recurrencia y frecuencia determinada). También se muestra aquí el tipo de horario escolar (que ya se habrá cargado previamente según las configuraciones primeras) y el Establecimiento y Turno al que refiere ese rango o intervalo horario. Por supuesto, el listado permite acciones de edición y de visualización gráfica a través del botón "Ver Calendario" ubicado al pié del listado. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN979"
+></A
+><P
+><B
+>Figura 10-4.  Listado de horario escolar. </B
+></P
+><P
+><IMG
+SRC="img/figura53.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Para las modificaciones así como las altas de estos eventos será necesario definir (además del nombre y la descripción) los siguientes elementos: 
+</P
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>Fecha y hora:</I
+></SPAN
+> donde se define la duración de un evento. En el caso de los intervalos de los horarios de clase será necesario darle como inicio y fin del evento el mismo día modificando únicamente la hora que sí indicará el comienzo y la finalización.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN986"
+></A
+><P
+><B
+>Figura 10-5.  Modificación (y alta) de horario escolar. </B
+></P
+><P
+><IMG
+SRC="img/figura54.png"></P
+></DIV
+>
+</P
+><P
+>&#13;<SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>La repetición del evento:</I
+></SPAN
+> que puede utilizarse o no según sea el caso colocando el tilde en la casilla. El criterio de repetición se construye a partir de dos elementos:
+</P
+><P
+>&#13;1) Regla de recurrencia: en el caso de las horas de clase se sugiere utilizar una repetición semanal, indicando lo días de la semana (lunes a viernes) en que se repetirá. Por el contrario, la recurrencia diaria no habilita la elección de los días de la semana para su selección e indica que la repetición se realizará todos los días, o cada X cantidad de días según se seleccione.
+</P
+><P
+>&#13;2) Rango de frecuencia: permite definir una fecha de finalización (si la tiene, como es el caso del ciclo lectivo) o una cantidad de repeticiones medidas en "veces".
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN994"
+></A
+><P
+><B
+>Figura 10-6. Recurrencia y frecuencia. </B
+></P
+><P
+><IMG
+SRC="img/figura55.png"></P
+></DIV
+>
+</P
+><P
+>&#13;El tipo de horario escolar (hora de clase, actividad extracurricular, etc.) y el turno (mañana, tarde, etc.) también serán solicitados para definir los horarios de clases, períodos que se asociarán entonces a estas otras dos características.
+</P
+><DIV
+CLASS="important"
+><P
+></P
+><TABLE
+CLASS="important"
+WIDTH="100%"
+BORDER="0"
+><TR
+><TD
+WIDTH="25"
+ALIGN="CENTER"
+VALIGN="TOP"
+><IMG
+SRC="../images/important.gif"
+HSPACE="5"
+ALT="Importante"></TD
+><TD
+ALIGN="LEFT"
+VALIGN="TOP"
+><P
+>&#13;Recuerde grabar los cambios y altas con el botón "Guardar" que se encuentra al pié de la página.
+</P
+></TD
+></TR
+></TABLE
+></DIV
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN1000"
+>10.2.2. Generar horario por Sección/División</A
+></H3
+><P
+>&#13;La generación de horarios de manera manual implica la carga de cada una de las materias/actividades que realiza cada división con los mismos parámetros de la carga explicada anteriormente en la formulación del horario escolar. Vale decir que en este caso además de los criterios de repetición también se relaciona la división con la actividad y el docente permitiendo, de esta forma, centralizar la información para la generación automática de los horarios.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1004"
+></A
+><P
+><B
+>Figura 10-7. Generación manual de horarios por división. </B
+></P
+><P
+><IMG
+SRC="img/figura56.png"></P
+></DIV
+>
+</P
+><P
+>&#13;El listado permite la edición de cada una de las entradas (que mostrarán los criterios de repetición detallados) y, a través de los botones de la barra inferior, exportar los eventos en un formato standar de intercambio de información de calendarios deonminado iCal y ver el calendario construido por la carga en una interfaz gráfica amigable e intuitiva. 
+</P
+></DIV
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN1008"
+>10.3. Horario Según?</A
+></H2
+><DIV
+CLASS="sect2"
+><H3
+CLASS="sect2"
+><A
+NAME="AEN1010"
+>10.3.1. (Horario según) docentes</A
+></H3
+><P
+>&#13;Esta herramienta permite acceder al horario de cada uno de los docentes previa búsqueda y selección del mismo. Recuerde que en todos los filtros de búsqueda es posible no colocar ningún criterio y presionar el botón "Buscar" que le devolverá (en este caso) el listado completo de docentes. Una vez elegido el docente, a través de la acción "Ver horario" (que se visualiza como un pequeño reloj) se accede a la misma interfaz gráfica utilizada en los horarios por división que mostrará los "eventos" del docente en el marco  del  trabajo en la escuela de manera diaria, semanal, mensual y anual. En el caso de escuelas primarias y secundarias, seleccionando la vista semanal se obtiene el horiario del docente en su trabajo cotidiano en la escuela. 
+</P
+><P
+>&#13;
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1015"
+></A
+><P
+><B
+>Figura 10-8. Horarios por docente. </B
+></P
+><P
+><IMG
+SRC="img/figura57.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect2"
+><HR><H3
+CLASS="sect2"
+><A
+NAME="AEN1018"
+>10.3.2. (Horario seg´n) Secci´n/Divisi´n</A
+></H3
+><P
+>&#13;Esta opción permite visualizar los horarios de cada una de las divisiones del establecimiento. En el ingreso el sisteme mostrará la lista de divisiones con su correspondiente botón de accion "Ver horario" que conduce a la vista según la misma interfaz de calendario. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1022"
+></A
+><P
+><B
+>Figura 10-9. Lista de divisiones y botóún "Ver horario". </B
+></P
+><P
+><IMG
+SRC="img/figura58.png"></P
+></DIV
+>
+</P
+></DIV
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN1025"
+></A
+>Capítulo 11. Locaciones y Espacios</H1
+><DIV
+CLASS="sect1"
+><H2
+CLASS="sect1"
+><A
+NAME="AEN1027"
+>11.1. Listado de locaciones</A
+></H2
+><P
+>&#13;Esta lista permite definir las sedes y anexos del establecimiento. Cada locación tendrá una dirección, un tipo de locación (sede o anexo, por ejemplo), los teléfonos y datos para ubicar al responsable del edificio. Como todo listado se cuenta con un filtro para acelarar las posibles búsquedas. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1031"
+></A
+><P
+><B
+>Figura 11-1. Listado de locaciones.</B
+></P
+><P
+><IMG
+SRC="img/figura59.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN1034"
+>11.2. Listado de espacios por locación</A
+></H2
+><P
+>&#13;Dentro de cada una de las locaciones, es posible cargar los diferentes espacios que la componen para mantener un sguimiento de su estado, tamaño y capacidad, ubicación etc. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1038"
+></A
+><P
+><B
+>Figura 11-2. Listado de espacios.</B
+></P
+><P
+><IMG
+SRC="img/figura60.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Ambos elementos (espacios y locaciones) permiten todas la edición. La siguiente figura muestra un típico formulario de alta y edición.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1043"
+></A
+><P
+><B
+>Figura 11-3. Editar espacio</B
+></P
+><P
+><IMG
+SRC="img/figura61.png"></P
+></DIV
+>
+</P
+></DIV
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN1046"
+></A
+>Capítulo 12. Informes y Cosultas</H1
+><P
+>&#13;Esta sección del menú (en incesante construcción) define las diferentes "salidas" de la información según diversos formularios y documentos imprimibles. Tal es el caso de  las constancias de alumno regular, certificados de estudio, solicitudes de legajo (a otros colegios) y certificados de egreso de 7mo grado.  Esta herramienta ofrece también <SPAN
+CLASS="emphasis"
+><I
+CLASS="emphasis"
+>listados de alumnos por división</I
+></SPAN
+> para el trabajo cotidiano de los docentes y directivos. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1051"
+></A
+><P
+><B
+>Figura 12-1. Búsqueda de alumno para certificado.</B
+></P
+><P
+><IMG
+SRC="img/figura62.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Una de las herramientas más interesantes es la Biblioteca de contenidos que permite el almacenamiento de documentos (de cualquier tipo) para su consulta permanente.  Ingresando a esta opción se visualizan las carpetas creadas en virtud de la organización de esos documentos. Estas carpetas son creadas por el mismo usuario a través del botón "Crear" una vez completo el casillero "Crear una carpeta" con el nombre que ésta tendrá. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1056"
+></A
+><P
+><B
+>Figura 12-2. Biblioteca de contenidos.</B
+></P
+><P
+><IMG
+SRC="img/figura63.png"></P
+></DIV
+>
+</P
+><P
+>&#13;Recuerde que para que el documento esté ingresado a una carpeta determinada tiene que seleccionarla (haciendo click). El nombre de la carpeta estará informado seguidamente del título para indicarle donde está posicionado. Luego podrá subir el archivo examinando el lugar de origne y presionando el botón "Agregar". 
+</P
+><P
+>&#13;Por último, cabe agregar que también desde esta sección del menú es posible generar los Boletines, pudiendo acceder desde un alumno en especial o a partir del listado de alumno de alguna división. En ambos casos se presentará el botón "Ver Informe" que llevará  a la visualización gráfica de las calificaciones según las materias ingresadas en cada división.
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1062"
+></A
+><P
+><B
+>Figura 12-3. Visualización de boletines.</B
+></P
+><P
+><IMG
+SRC="img/figura64.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="chapter"
+><HR><H1
+><A
+NAME="AEN1065"
+></A
+>Capítulo 13. Ayuda</H1
+><DIV
+CLASS="sect1"
+><H2
+CLASS="sect1"
+><A
+NAME="AEN1067"
+>13.1. Índice.</A
+></H2
+><P
+>&#13;El ingreso a la ayuda permite visualizar en línea la totalidad del contenido del manual en una nueva ventana del navegador. Este manual en línea mantendrá, en la medida de las posiblidadades, la misma estructura que el documento que se descarga desde el sitio web del proyecto. 
+</P
+><P
+>&#13;<DIV
+CLASS="figure"
+><A
+NAME="AEN1071"
+></A
+><P
+><B
+>Figura 13-1. Búsqueda de alumno para certificado.</B
+></P
+><P
+><IMG
+SRC="img/figura65.png"></P
+></DIV
+>
+</P
+></DIV
+><DIV
+CLASS="sect1"
+><HR><H2
+CLASS="sect1"
+><A
+NAME="AEN1074"
+>13.2. Manual en línea.</A
+></H2
+><P
+>&#13;En los créditos podrá conocer el equipo de trabajo del Proyecto ALBA y los colaboradores. 
+</P
+></DIV
+></DIV
+></DIV
+></BODY
+></HTML
+>

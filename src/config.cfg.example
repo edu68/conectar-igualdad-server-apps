@@ -1,0 +1,10 @@
+[Servidor]
+hostname = 172.16.0.1
+port = 22
+username = topadmin
+password = Top.school
+
+[Mysql]
+username = administrador
+password = upN2XuOQ5u5u
+
