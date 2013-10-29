@@ -21,7 +21,7 @@ Aplicaciones:
 * Mediawiki
 * Atrium
 * Elgg
-
+* Alba
 
 Generar imagen ISO
 ------------------
