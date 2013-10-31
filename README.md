@@ -43,6 +43,7 @@ Imagen en Torrent
 En caso de que no quieras bajarte el código, podes descargar el torrent.
 
 <pre>
+http://thepiratebay.sx/torrent/9126133
 </pre>
 
 Desarrolladores
