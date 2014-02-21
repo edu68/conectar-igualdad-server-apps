@@ -8,3 +8,5 @@ password = Top.school
 username = administrador
 password = upN2XuOQ5u5u
 
+[Config]
+use_ssh = no

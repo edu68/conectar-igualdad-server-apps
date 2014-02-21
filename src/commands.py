@@ -12,6 +12,10 @@ from src.lib.sshstatic import SSHStatic
 from src.settings import config
 
 
+def str2bool(v):
+  return v.lower() in ("yes", "true", "t", "1")
+
+
 # datos de servidor, usuario y password
 HOST = config.get('Servidor','hostname')
 PORT = config.get('Servidor','port')
@@ -21,6 +25,8 @@ USER = config.get('Servidor','username')
 mysqluser =  config.get('Mysql','username')
 mysqlpass =  config.get('Mysql','password')
 
+# datos de configuracion
+use_ssh =  str2bool(config.get('Config', "use_ssh"))
 
 
 PROGRAMS = {
@@ -90,6 +96,7 @@ METHOD_INSTALL_CRON = 'install_cron'
 
 
 def check_host():
+    return True
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.settimeout(10)
@@ -111,8 +118,10 @@ def check_password(password):
 
 
 def copy(archivo):
-    #CONEXION.copy([archivo], path=REMOTE_SRC_PATH)
-    shutil.copy(archivo, VM_SRC_PATH)
+    if use_ssh:
+        CONEXION.copy([archivo], path=REMOTE_SRC_PATH)
+    else:
+        shutil.copy(archivo, VM_SRC_PATH)
 
 def copy_tarball(tarball):
     full_path = os.path.join(FILE_TARBALL_LOCAL_DIR, tarball)
